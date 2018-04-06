@@ -8,12 +8,16 @@
 
 import UIKit
 
-class nameViewController: UIViewController {
+class nameViewController: UIViewController
+{
 
     @IBOutlet weak var txtfirstname: UITextField!
     @IBOutlet weak var txtlastname: UITextField!
     
-    override func viewDidLoad() {
+//MARK: - Delegate Methods
+
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         let border = CALayer()
         let width = CGFloat(2.0)
@@ -24,9 +28,6 @@ class nameViewController: UIViewController {
         txtfirstname.layer.addSublayer(border)
         txtfirstname.layer.masksToBounds = true
         
-        
-        
-        
         let border1 = CALayer()
         let width1 = CGFloat(2.0)
         border1.borderColor = UIColor.darkGray.cgColor
@@ -36,24 +37,11 @@ class nameViewController: UIViewController {
         txtlastname.layer.addSublayer(border1)
         txtlastname.layer.masksToBounds = true
         
-        
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

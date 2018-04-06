@@ -9,7 +9,7 @@ target 'greegotaxiapp' do
 pod 'SVPinView', '~> 1.0.1'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
-  pod 'DropDown'
+  pod 'HADropDown'
     # Pods for greegotaxiapp
 
   target 'greegotaxiappTests' do
