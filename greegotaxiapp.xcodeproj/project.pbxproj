@@ -25,6 +25,8 @@
 		734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */; };
 		734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0A2076276500090B8A /* EmailverificationViewController.swift */; };
 		734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */; };
+		734F550C2077408200512886 /* HADropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550B2077408200512886 /* HADropDown.swift */; };
+		734F550E2077502900512886 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550D2077502900512886 /* ImageViewController.swift */; };
 		83A6BF3054F46F7E7767CAE6 /* Pods_greegotaxiappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */; };
 		935F253A1361BD545BFA5B55 /* Pods_greegotaxiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */; };
 		BC2CAD3379DDE774B249D74F /* Pods_greegotaxiappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3A397F82F7B2A3D65BA816 /* Pods_greegotaxiappUITests.framework */; };
@@ -79,6 +81,8 @@
 		734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateprofileViewController.swift; sourceTree = "<group>"; };
 		734B9B0A2076276500090B8A /* EmailverificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailverificationViewController.swift; sourceTree = "<group>"; };
 		734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_informationViewController.swift; sourceTree = "<group>"; };
+		734F550B2077408200512886 /* HADropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADropDown.swift; sourceTree = "<group>"; };
+		734F550D2077502900512886 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		8748A7BFADDC915F22DA3B95 /* Pods-greegotaxiappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappUITests/Pods-greegotaxiappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B243F7AB790791DE39AE55F7 /* Pods-greegotaxiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.release.xcconfig"; sourceTree = "<group>"; };
 		BF614B59659D6E847AFF8C8E /* Pods-greegotaxiappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappTests/Pods-greegotaxiappTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 				696A6192207212990015C77E /* ViewController.swift */,
 				73051D922074A14900C42207 /* MaintableViewController.swift */,
 				696A6194207212990015C77E /* Main.storyboard */,
+				734F550D2077502900512886 /* ImageViewController.swift */,
 				734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */,
 				734B9B0A2076276500090B8A /* EmailverificationViewController.swift */,
 				734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */,
@@ -199,6 +204,7 @@
 		730AF664207359B000AD8993 /* sidemenu */ = {
 			isa = PBXGroup;
 			children = (
+				734F550B2077408200512886 /* HADropDown.swift */,
 				730AF66620735A3D00AD8993 /* SWRevealViewController.h */,
 				696A6190207212990015C77E /* AppDelegate.swift */,
 				730AF66720735A3E00AD8993 /* SWRevealViewController.m */,
@@ -524,7 +530,9 @@
 				73051D952074A1B300C42207 /* MainTableViewCell.swift in Sources */,
 				734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */,
 				696A61C1207213830015C77E /* mobilenumberViewController.swift in Sources */,
+				734F550C2077408200512886 /* HADropDown.swift in Sources */,
 				730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */,
+				734F550E2077502900512886 /* ImageViewController.swift in Sources */,
 				734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */,
 				734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */,
 				730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */,

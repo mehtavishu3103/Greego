@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e2n-kS-Quw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="351" y="145"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Z7-dI-fXB">
@@ -951,10 +951,10 @@
             </objects>
             <point key="canvasLocation" x="5948.8000000000002" y="340.02998500749629"/>
         </scene>
-        <!--View Controller-->
+        <!--Image View Controller-->
         <scene sceneID="3mj-ri-Bqo">
             <objects>
-                <viewController id="KCJ-gA-MyF" sceneMemberID="viewController">
+                <viewController id="KCJ-gA-MyF" customClass="ImageViewController" customModule="greegotaxiapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xds-Fk-wR5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1004,11 +1004,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="64"/>
                                         <color key="backgroundColor" red="0.091685583714068694" green="0.58823529411764708" blue="0.55867238225152083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" image="photo-camera"/>
+                                        <connections>
+                                            <action selector="cameraaction:" destination="KCJ-gA-MyF" eventType="touchUpInside" id="Bdq-zr-aQS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bL0-14-BbA">
                                         <rect key="frame" x="125" y="0.0" width="125" height="64"/>
                                         <color key="backgroundColor" red="0.086164599690464944" green="0.14011913753053284" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" image="gallery"/>
+                                        <connections>
+                                            <action selector="gallaryaction:" destination="KCJ-gA-MyF" eventType="touchUpInside" id="zCw-h7-QDc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -1651,44 +1657,80 @@
                                                 <rect key="frame" x="39" y="125" width="242" height="350"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IZ-d2-xPb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="37" height="35"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="38.5" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                         <color key="textColor" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Mz-rI-XUJ" customClass="DropDown">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Mz-rI-XUJ" customClass="HADropDown" customModule="greegotaxiapp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="45" width="242" height="35"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="CHOOSE VEHICLE MAKE"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="itemTextColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etr-yf-BMe">
-                                                        <rect key="frame" x="0.0" y="90" width="42.5" height="35"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <rect key="frame" x="0.0" y="90" width="44.5" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                         <color key="textColor" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mXa-f5-JIO" customClass="DropDown">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mXa-f5-JIO" customClass="HADropDown" customModule="greegotaxiapp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="135" width="242" height="35"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="CHOOSE VEHICLE MODEL"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="itemTextColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXK-zy-SK7">
-                                                        <rect key="frame" x="0.0" y="180" width="30.5" height="35"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <rect key="frame" x="0.0" y="180" width="32" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                         <color key="textColor" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHs-ao-A51" customClass="DropDown">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHs-ao-A51" customClass="HADropDown" customModule="greegotaxiapp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="225" width="242" height="35"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="CHOOSE VEHICLE YEAR"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="itemTextColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syb-q2-7FM">
-                                                        <rect key="frame" x="0.0" y="270" width="37" height="35"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <rect key="frame" x="0.0" y="270" width="38.5" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                         <color key="textColor" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfa-ED-GVx" customClass="DropDown">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfa-ED-GVx" customClass="HADropDown" customModule="greegotaxiapp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="315" width="242" height="35"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="CHOOSE VEHICLE COLOR"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="itemTextColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                                <color key="value" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </view>
                                                 </subviews>
                                                 <constraints>
@@ -1699,8 +1741,8 @@
                                                     <constraint firstItem="HHs-ao-A51" firstAttribute="trailing" secondItem="Sfa-ED-GVx" secondAttribute="trailing" id="yPC-k0-oXR"/>
                                                 </constraints>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What's your vehicle ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm3-6J-0e9">
-                                                <rect key="frame" x="73" y="516" width="184.5" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your vehicle ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm3-6J-0e9">
+                                                <rect key="frame" x="73" y="537" width="184.5" height="27"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="27" id="tUL-Be-04o"/>
                                                 </constraints>
@@ -1708,8 +1750,8 @@
                                                 <color key="textColor" red="0.0" green="0.47417285479999999" blue="0.47962507589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please select the option for your tansmission type" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOi-25-uZ8">
-                                                <rect key="frame" x="52" y="533" width="222" height="68"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select the option for your tansmission type" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOi-25-uZ8">
+                                                <rect key="frame" x="52" y="557" width="222" height="68"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="68" id="SLg-Gg-hXM"/>
                                                 </constraints>
@@ -1732,8 +1774,8 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="jOT-h9-82O" firstAttribute="leading" secondItem="kKr-ww-3lh" secondAttribute="leading" id="2jb-qJ-qsq"/>
-                                            <constraint firstItem="Vm3-6J-0e9" firstAttribute="centerX" secondItem="jOT-h9-82O" secondAttribute="centerX" id="3gV-xn-KqO"/>
-                                            <constraint firstItem="jOT-h9-82O" firstAttribute="top" secondItem="vOi-25-uZ8" secondAttribute="bottom" constant="69" id="CdD-Zb-5uy"/>
+                                            <constraint firstItem="Vm3-6J-0e9" firstAttribute="centerX" secondItem="jOT-h9-82O" secondAttribute="centerX" constant="5.25" id="3gV-xn-KqO"/>
+                                            <constraint firstItem="jOT-h9-82O" firstAttribute="top" secondItem="vOi-25-uZ8" secondAttribute="bottom" constant="23" id="CdD-Zb-5uy"/>
                                             <constraint firstItem="YMU-sz-N4f" firstAttribute="leading" secondItem="kKr-ww-3lh" secondAttribute="leading" constant="18" id="DL1-ue-oxw"/>
                                             <constraint firstItem="eDM-TB-fua" firstAttribute="top" secondItem="MaR-kz-MJK" secondAttribute="bottom" constant="47" id="EfS-EC-RVf"/>
                                             <constraint firstAttribute="bottom" secondItem="jOT-h9-82O" secondAttribute="bottom" constant="12" id="Gmp-Bz-3lx"/>
@@ -1744,7 +1786,7 @@
                                             <constraint firstAttribute="trailing" secondItem="jOT-h9-82O" secondAttribute="trailing" id="kaq-PB-mNv"/>
                                             <constraint firstItem="vOi-25-uZ8" firstAttribute="leading" secondItem="kKr-ww-3lh" secondAttribute="leading" constant="52" id="mTc-Xe-ObN"/>
                                             <constraint firstAttribute="height" constant="703" id="nYi-Dt-N6g"/>
-                                            <constraint firstItem="Vm3-6J-0e9" firstAttribute="top" secondItem="eDM-TB-fua" secondAttribute="bottom" constant="11" id="pi0-2k-bsg"/>
+                                            <constraint firstItem="Vm3-6J-0e9" firstAttribute="top" secondItem="eDM-TB-fua" secondAttribute="bottom" constant="62" id="pi0-2k-bsg"/>
                                             <constraint firstAttribute="trailing" secondItem="vOi-25-uZ8" secondAttribute="trailing" constant="46" id="tA8-Rn-Y8D"/>
                                             <constraint firstItem="MaR-kz-MJK" firstAttribute="centerX" secondItem="kKr-ww-3lh" secondAttribute="centerX" constant="2.5" id="xYa-ah-I07"/>
                                         </constraints>
@@ -1769,6 +1811,12 @@
                         <viewLayoutGuide key="safeArea" id="ffC-XR-2dc"/>
                     </view>
                     <size key="freeformSize" width="320" height="760"/>
+                    <connections>
+                        <outlet property="dropDown" destination="6Mz-rI-XUJ" id="jeS-DA-lns"/>
+                        <outlet property="dropdown2" destination="mXa-f5-JIO" id="iLW-LC-ygf"/>
+                        <outlet property="dropdown3" destination="HHs-ao-A51" id="cLh-uF-qFs"/>
+                        <outlet property="dropdown4" destination="Sfa-ED-GVx" id="tI2-6A-N8S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dys-BL-i3G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1871,7 +1919,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lsD-on-vot" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="765" y="97"/>
+            <point key="canvasLocation" x="-495" y="255"/>
         </scene>
     </scenes>
     <resources>
