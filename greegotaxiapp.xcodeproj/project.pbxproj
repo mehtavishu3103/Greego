@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A0B4B2078977500CBA6D2 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B4A2078977500CBA6D2 /* SharedClass.swift */; };
+		040A0B4D2078997B00CBA6D2 /* WebServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B4C2078997B00CBA6D2 /* WebServiceClass.swift */; };
+		040A0B502078A30300CBA6D2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B4F2078A30300CBA6D2 /* Reachability.m */; };
+		040A0B552078A97F00CBA6D2 /* ChooseDestinatioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B542078A97F00CBA6D2 /* ChooseDestinatioVC.swift */; };
 		041CF17F20777D9C00464B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CF17520777D9B00464B5D /* Main.storyboard */; };
 		041CF18020777D9C00464B5D /* addMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF17720777D9B00464B5D /* addMobileVC.swift */; };
 		041CF18120777D9C00464B5D /* mobilenumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF17820777D9B00464B5D /* mobilenumberViewController.swift */; };
@@ -54,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A0B4A2078977500CBA6D2 /* SharedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		040A0B4C2078997B00CBA6D2 /* WebServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceClass.swift; sourceTree = "<group>"; };
+		040A0B4E2078A30300CBA6D2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		040A0B4F2078A30300CBA6D2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		040A0B542078A97F00CBA6D2 /* ChooseDestinatioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDestinatioVC.swift; sourceTree = "<group>"; };
 		041CF17520777D9B00464B5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		041CF17720777D9B00464B5D /* addMobileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMobileVC.swift; sourceTree = "<group>"; };
 		041CF17820777D9B00464B5D /* mobilenumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mobilenumberViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040A0B532078A8D800CBA6D2 /* MAP */ = {
+			isa = PBXGroup;
+			children = (
+				040A0B542078A97F00CBA6D2 /* ChooseDestinatioVC.swift */,
+				041CF18A20777EB700464B5D /* MainmapViewController.swift */,
+			);
+			path = MAP;
+			sourceTree = "<group>";
+		};
 		041CF17620777D9B00464B5D /* Registration */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +176,10 @@
 			isa = PBXGroup;
 			children = (
 				734F550B2077408200512886 /* HADropDown.swift */,
+				040A0B4E2078A30300CBA6D2 /* Reachability.h */,
+				040A0B4F2078A30300CBA6D2 /* Reachability.m */,
+				040A0B4C2078997B00CBA6D2 /* WebServiceClass.swift */,
+				040A0B4A2078977500CBA6D2 /* SharedClass.swift */,
 			);
 			path = HelperClass;
 			sourceTree = "<group>";
@@ -190,8 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				734F550D2077502900512886 /* ImageViewController.swift */,
-				041CF18A20777EB700464B5D /* MainmapViewController.swift */,
 				73051D962074DAB900C42207 /* Trip_detail_ViewController.swift */,
+				045F556B2078092F00E75EB6 /* style.json */,
+				045F55692078028100E75EB6 /* GoogleMap.json */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -212,8 +235,6 @@
 		696A6184207212990015C77E = {
 			isa = PBXGroup;
 			children = (
-				045F556B2078092F00E75EB6 /* style.json */,
-				045F55692078028100E75EB6 /* GoogleMap.json */,
 				696A618F207212990015C77E /* greegotaxiapp */,
 				696A61A4207212990015C77E /* greegotaxiappTests */,
 				696A61AF207212990015C77E /* greegotaxiappUITests */,
@@ -236,8 +257,9 @@
 		696A618F207212990015C77E /* greegotaxiapp */ = {
 			isa = PBXGroup;
 			children = (
-				045F55642077E8D900E75EB6 /* HelperClass */,
 				045F55632077E8A200E75EB6 /* StoryBoards */,
+				040A0B532078A8D800CBA6D2 /* MAP */,
+				045F55642077E8D900E75EB6 /* HelperClass */,
 				045F55652077E8E700E75EB6 /* Delegates */,
 				041CF17620777D9B00464B5D /* Registration */,
 				045F55622077E83800E75EB6 /* Profile */,
@@ -601,14 +623,18 @@
 				041CF18120777D9C00464B5D /* mobilenumberViewController.swift in Sources */,
 				734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */,
 				734F550C2077408200512886 /* HADropDown.swift in Sources */,
+				040A0B4D2078997B00CBA6D2 /* WebServiceClass.swift in Sources */,
 				041CF18220777D9C00464B5D /* nameViewController.swift in Sources */,
 				730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */,
+				040A0B502078A30300CBA6D2 /* Reachability.m in Sources */,
+				040A0B4B2078977500CBA6D2 /* SharedClass.swift in Sources */,
 				734F550E2077502900512886 /* ImageViewController.swift in Sources */,
 				734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */,
 				041CF18B20777EB700464B5D /* MainmapViewController.swift in Sources */,
 				734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */,
 				730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */,
 				73051D932074A14900C42207 /* MaintableViewController.swift in Sources */,
+				040A0B552078A97F00CBA6D2 /* ChooseDestinatioVC.swift in Sources */,
 				696A6191207212990015C77E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
