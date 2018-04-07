@@ -10,7 +10,8 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
-class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate
+
+class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, UITextFieldDelegate
 {
     
     @IBOutlet weak var updateViewHeightContraint: NSLayoutConstraint!
@@ -45,8 +46,8 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
             viewCarSelection.layer.cornerRadius = 20.0
             viewCarSelection.layer.masksToBounds = true
         }
-        userMapView.delegate = self
         
+        userMapView.delegate = self
         do {
             // Set the map style by passing the URL of the local file. Make sure style.json is present in your project
             if let styleURL = Bundle.main.url(forResource: "GoogleMap", withExtension: "json")
@@ -101,6 +102,17 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
     {
         super.didReceiveMemoryWarning()
     }
+  
+    
+//MARK: - TextField Delegate Methods
+
+    func textFieldDidBeginEditing(_ textField: UITextField)
+    {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChooseDestinatioVC") as! ChooseDestinatioVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    
+    }
+    
     
 // MARK: - IBAction Methods
     
@@ -114,13 +126,21 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
     {
         if isExpanded
         {
-            updatePopUp.heightAnchor.constraint(equalToConstant: 40.0)
-            updateViewHeightContraint.constant = 40.0
+            UIView.animate(withDuration: 0.3, delay: 0.1, options: .curveEaseOut, animations: {
+                self.updatePopUp.heightAnchor.constraint(equalToConstant: 40.0)
+                self.updateViewHeightContraint.constant = 40.0
+                self.view.layoutIfNeeded()
+            }, completion: nil)
         }
         else
         {
-            updatePopUp.heightAnchor.constraint(equalToConstant: 190.0)
-            updateViewHeightContraint.constant = 190.0
+            UIView.animate(withDuration: 0.3, delay: 0.1, options: .curveEaseOut, animations: {
+                self.updatePopUp.heightAnchor.constraint(equalToConstant: 190.0)
+                self.updateViewHeightContraint.constant = 190.0
+                self.view.layoutIfNeeded()
+            }, completion: nil)
+            
+           
         }
         isExpanded = !isExpanded
     }
@@ -142,11 +162,12 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
         txtSearchPlace.contentMode = .scaleToFill
         
         let imageView = UIImageView.init(image: #imageLiteral(resourceName: "photo-camera"))
-        imageView.frame = CGRect(x: 0, y: 0, width: txtSearchPlace.frame.size.height-10, height: txtSearchPlace.frame.size.height-10)
+        imageView.frame = CGRect(x: 20, y: 0, width: txtSearchPlace.frame.size.height-10, height: txtSearchPlace.frame.size.height-10)
         txtSearchPlace.leftViewMode = UITextFieldViewMode.always
         txtSearchPlace.leftView = imageView
         txtSearchPlace.textRect(forBounds: txtSearchPlace.bounds)
         txtSearchPlace.placeholderRect(forBounds: txtSearchPlace.bounds)
+    
     }
     
     func setShadow()

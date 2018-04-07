@@ -2006,7 +2006,7 @@ you have to update your information.</string>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QC8-Zy-uDh">
                                         <rect key="frame" x="76" y="8" width="156" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">What cehicle do you want 
+                                        <string key="text">What vehicle do you want 
 Greego to drive?</string>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <nil key="textColor"/>
@@ -2019,10 +2019,10 @@ Greego to drive?</string>
                                 </constraints>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwZ-em-taa">
-                                <rect key="frame" x="60" y="181" width="200" height="190"/>
+                                <rect key="frame" x="80" y="181" width="160" height="190"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updates" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxX-tt-AhS">
-                                        <rect key="frame" x="-1.5" y="10" width="123" height="27"/>
+                                        <rect key="frame" x="-21.5" y="10" width="123" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="27" id="9bd-4H-ncg"/>
                                             <constraint firstAttribute="width" constant="123" id="xeY-ku-tcz"/>
@@ -2032,13 +2032,13 @@ Greego to drive?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before you use greego, please complete the remaining set up" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpZ-w3-8QI">
-                                        <rect key="frame" x="10" y="45" width="180" height="29"/>
+                                        <rect key="frame" x="5" y="45" width="150" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.047974132001399994" blue="0.22386789321899414" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKl-fU-2bU">
-                                        <rect key="frame" x="10" y="91" width="160" height="21"/>
+                                        <rect key="frame" x="10" y="91" width="120" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="YLg-O1-pjX"/>
                                         </constraints>
@@ -2047,19 +2047,19 @@ Greego to drive?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Vehicle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDH-8Q-qes">
-                                        <rect key="frame" x="10" y="120" width="160" height="21"/>
+                                        <rect key="frame" x="10" y="120" width="120" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZF-fG-0vA">
-                                        <rect key="frame" x="10" y="149" width="160" height="21"/>
+                                        <rect key="frame" x="10" y="149" width="120" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbN-TZ-pv1">
-                                        <rect key="frame" x="15" y="112" width="155" height="1"/>
+                                        <rect key="frame" x="15" y="112" width="115" height="1"/>
                                         <color key="backgroundColor" red="0.18578231334686279" green="0.70425707101821899" blue="0.64021497964859009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="EBD-mD-n5i"/>
@@ -2069,7 +2069,7 @@ Greego to drive?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYs-eH-csY">
-                                        <rect key="frame" x="15" y="141" width="155" height="1"/>
+                                        <rect key="frame" x="15" y="141" width="115" height="1"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="Cho-8X-Nbe"/>
@@ -2079,7 +2079,7 @@ Greego to drive?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soe-C6-H6b">
-                                        <rect key="frame" x="15" y="170" width="155" height="1"/>
+                                        <rect key="frame" x="15" y="170" width="115" height="1"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="XtR-i1-rIX"/>
@@ -2089,7 +2089,7 @@ Greego to drive?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Aw-AI-7tT">
-                                        <rect key="frame" x="121.5" y="10" width="33" height="27"/>
+                                        <rect key="frame" x="101.5" y="10" width="33" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3Aw-AI-7tT" secondAttribute="height" multiplier="11:9" id="4Xx-C3-9u9"/>
                                         </constraints>
@@ -2110,14 +2110,14 @@ Greego to drive?</string>
                                     <constraint firstItem="Soe-C6-H6b" firstAttribute="leading" secondItem="VZF-fG-0vA" secondAttribute="leading" constant="5" id="D8X-Ld-FME"/>
                                     <constraint firstItem="XYs-eH-csY" firstAttribute="trailing" secondItem="BDH-8Q-qes" secondAttribute="trailing" id="Hu6-6d-XI3"/>
                                     <constraint firstAttribute="trailing" secondItem="XKl-fU-2bU" secondAttribute="trailing" constant="30" id="NUe-v5-zcP"/>
-                                    <constraint firstItem="OpZ-w3-8QI" firstAttribute="width" secondItem="SwZ-em-taa" secondAttribute="width" constant="-20" id="UE7-Wl-zwz"/>
+                                    <constraint firstItem="OpZ-w3-8QI" firstAttribute="width" secondItem="SwZ-em-taa" secondAttribute="width" constant="-10" id="UE7-Wl-zwz"/>
                                     <constraint firstItem="VZF-fG-0vA" firstAttribute="height" secondItem="BDH-8Q-qes" secondAttribute="height" id="V24-1I-6oa"/>
                                     <constraint firstItem="VZF-fG-0vA" firstAttribute="leading" secondItem="BDH-8Q-qes" secondAttribute="leading" id="Wfh-wg-Cqc"/>
                                     <constraint firstItem="VZF-fG-0vA" firstAttribute="top" secondItem="BDH-8Q-qes" secondAttribute="bottom" constant="8" id="ZX9-0Q-slY"/>
                                     <constraint firstItem="XYs-eH-csY" firstAttribute="top" secondItem="BDH-8Q-qes" secondAttribute="bottom" id="alT-4u-OSS"/>
                                     <constraint firstItem="3Aw-AI-7tT" firstAttribute="top" secondItem="xxX-tt-AhS" secondAttribute="top" id="d45-0G-XlK"/>
                                     <constraint firstItem="XKl-fU-2bU" firstAttribute="leading" secondItem="SwZ-em-taa" secondAttribute="leading" constant="10" id="dDl-wz-fxQ"/>
-                                    <constraint firstItem="OpZ-w3-8QI" firstAttribute="leading" secondItem="SwZ-em-taa" secondAttribute="leading" constant="10" id="gNR-kK-QjY"/>
+                                    <constraint firstItem="OpZ-w3-8QI" firstAttribute="leading" secondItem="SwZ-em-taa" secondAttribute="leading" constant="5" id="gNR-kK-QjY"/>
                                     <constraint firstItem="XKl-fU-2bU" firstAttribute="top" secondItem="OpZ-w3-8QI" secondAttribute="bottom" constant="17" id="gYc-Ue-hoh"/>
                                     <constraint firstItem="Soe-C6-H6b" firstAttribute="trailing" secondItem="VZF-fG-0vA" secondAttribute="trailing" id="gkN-2J-MUo"/>
                                     <constraint firstItem="WbN-TZ-pv1" firstAttribute="leading" secondItem="XKl-fU-2bU" secondAttribute="leading" constant="5" id="hi7-qJ-u4E"/>
@@ -2135,14 +2135,17 @@ Greego to drive?</string>
                                     <constraint firstItem="VZF-fG-0vA" firstAttribute="trailing" secondItem="BDH-8Q-qes" secondAttribute="trailing" id="yHl-cT-QEB"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Where do you want to go?" textAlignment="natural" minimumFontSize="17" background="Post_BG_(White+shadow)" translatesAutoresizingMaskIntoConstraints="NO" id="tXK-Xs-96l">
-                                <rect key="frame" x="10" y="143" width="300" height="46"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Where do you want to go?" textAlignment="natural" minimumFontSize="17" background="txt_bg" translatesAutoresizingMaskIntoConstraints="NO" id="tXK-Xs-96l">
+                                <rect key="frame" x="30" y="143" width="260" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="5Ch-cC-jhZ"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="XOO-md-Srn" id="3Jn-5D-1sx"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2159,7 +2162,7 @@ Greego to drive?</string>
                             <constraint firstItem="cZn-tz-Ndk" firstAttribute="bottom" secondItem="7z8-ag-sPi" secondAttribute="bottom" constant="25" id="g0r-3e-qIp"/>
                             <constraint firstItem="jsX-Xj-8dn" firstAttribute="top" secondItem="cZn-tz-Ndk" secondAttribute="top" id="iVD-LY-R5N"/>
                             <constraint firstItem="SwZ-em-taa" firstAttribute="trailing" secondItem="tXK-Xs-96l" secondAttribute="trailing" constant="-50" id="lBq-JL-wQW"/>
-                            <constraint firstItem="tXK-Xs-96l" firstAttribute="width" secondItem="Hax-xj-2wK" secondAttribute="height" multiplier="75:142" id="sKa-H4-O1h"/>
+                            <constraint firstItem="tXK-Xs-96l" firstAttribute="width" secondItem="Hax-xj-2wK" secondAttribute="height" multiplier="65:142" id="sKa-H4-O1h"/>
                             <constraint firstItem="tXK-Xs-96l" firstAttribute="centerY" secondItem="cZn-tz-Ndk" secondAttribute="centerY" constant="-150" id="sPd-3c-abB"/>
                             <constraint firstItem="jsX-Xj-8dn" firstAttribute="leading" secondItem="cZn-tz-Ndk" secondAttribute="leading" id="soH-wu-7ha"/>
                         </constraints>
@@ -2228,6 +2231,109 @@ Greego to drive?</string>
             </objects>
             <point key="canvasLocation" x="-566" y="12"/>
         </scene>
+        <!--Choose DestinatioVC-->
+        <scene sceneID="hcc-HF-s09">
+            <objects>
+                <viewController storyboardIdentifier="ChooseDestinatioVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HWR-gZ-bBH" customClass="ChooseDestinatioVC" customModule="greegotaxiapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="way-Hy-XUt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFo-7e-CNV">
+                                <rect key="frame" x="1" y="1" width="318" height="180"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpY-nu-j6R">
+                                        <rect key="frame" x="24" y="52.5" width="42" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="42" id="O0s-D5-ivk"/>
+                                            <constraint firstAttribute="height" constant="42" id="Qkz-Jg-nzW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wc-Fu-Vv9">
+                                        <rect key="frame" x="24" y="120.5" width="42" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCc-Oi-oEX">
+                                        <rect key="frame" x="44" y="94.5" width="1" height="26"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="RBX-vg-7kY"/>
+                                            <constraint firstAttribute="height" constant="26" id="mqH-AJ-ZNZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Gv-itW">
+                                        <rect key="frame" x="9" y="19" width="28" height="23.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wPT-Gv-itW" secondAttribute="height" multiplier="6:5" id="ATU-dw-oG0"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="back"/>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pickup Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXd-Xt-C8m">
+                                        <rect key="frame" x="74" y="53" width="228" height="42"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.62745098040000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Where Do you want to go?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qFP-Xa-nZy">
+                                        <rect key="frame" x="74" y="120.5" width="229" height="42"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.62745098040000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.81568627449999997" green="0.85490196080000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="wPT-Gv-itW" firstAttribute="width" secondItem="gFo-7e-CNV" secondAttribute="height" multiplier="9:58" id="06n-9c-54K"/>
+                                    <constraint firstItem="cpY-nu-j6R" firstAttribute="top" secondItem="wPT-Gv-itW" secondAttribute="bottom" constant="10" id="1Vn-BX-U8q"/>
+                                    <constraint firstItem="wPT-Gv-itW" firstAttribute="top" secondItem="gFo-7e-CNV" secondAttribute="top" constant="19" id="2Ca-TV-MFS"/>
+                                    <constraint firstItem="MXd-Xt-C8m" firstAttribute="height" secondItem="cpY-nu-j6R" secondAttribute="height" id="5V9-SM-Nzs"/>
+                                    <constraint firstItem="cpY-nu-j6R" firstAttribute="leading" secondItem="gFo-7e-CNV" secondAttribute="leading" constant="24" id="99q-4M-rz8"/>
+                                    <constraint firstItem="qFP-Xa-nZy" firstAttribute="height" secondItem="3Wc-Fu-Vv9" secondAttribute="height" id="9BG-Db-wEj"/>
+                                    <constraint firstItem="3Wc-Fu-Vv9" firstAttribute="top" secondItem="oCc-Oi-oEX" secondAttribute="bottom" id="BL2-bL-GPO"/>
+                                    <constraint firstItem="qFP-Xa-nZy" firstAttribute="centerY" secondItem="3Wc-Fu-Vv9" secondAttribute="centerY" id="G2T-0f-Sz2"/>
+                                    <constraint firstItem="3Wc-Fu-Vv9" firstAttribute="height" secondItem="cpY-nu-j6R" secondAttribute="height" id="GtZ-RD-uGX"/>
+                                    <constraint firstItem="3Wc-Fu-Vv9" firstAttribute="centerX" secondItem="cpY-nu-j6R" secondAttribute="centerX" id="V3u-zf-2Ye"/>
+                                    <constraint firstAttribute="trailing" secondItem="qFP-Xa-nZy" secondAttribute="trailing" constant="15" id="Wi0-Be-LGT"/>
+                                    <constraint firstItem="MXd-Xt-C8m" firstAttribute="centerY" secondItem="cpY-nu-j6R" secondAttribute="centerY" id="ezS-CW-oNF"/>
+                                    <constraint firstItem="oCc-Oi-oEX" firstAttribute="top" secondItem="cpY-nu-j6R" secondAttribute="bottom" id="f4Z-GX-f2e"/>
+                                    <constraint firstItem="MXd-Xt-C8m" firstAttribute="leading" secondItem="cpY-nu-j6R" secondAttribute="trailing" constant="8" id="fYH-4P-Q7N"/>
+                                    <constraint firstItem="oCc-Oi-oEX" firstAttribute="centerX" secondItem="cpY-nu-j6R" secondAttribute="centerX" id="gua-6a-161"/>
+                                    <constraint firstAttribute="height" constant="180" id="m49-rc-zel"/>
+                                    <constraint firstAttribute="trailing" secondItem="MXd-Xt-C8m" secondAttribute="trailing" constant="16" id="o0a-jD-KWh"/>
+                                    <constraint firstItem="qFP-Xa-nZy" firstAttribute="leading" secondItem="MXd-Xt-C8m" secondAttribute="leading" id="sZ5-MP-8dl"/>
+                                    <constraint firstItem="wPT-Gv-itW" firstAttribute="leading" secondItem="gFo-7e-CNV" secondAttribute="leading" constant="9" id="tMr-3l-uLS"/>
+                                    <constraint firstItem="3Wc-Fu-Vv9" firstAttribute="width" secondItem="cpY-nu-j6R" secondAttribute="width" id="y8X-2N-b4Q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="top" secondItem="gFo-7e-CNV" secondAttribute="top" constant="19" id="ber-Ri-S6E"/>
+                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="trailing" secondItem="gFo-7e-CNV" secondAttribute="trailing" constant="1" id="dLS-DW-mUv"/>
+                            <constraint firstItem="gFo-7e-CNV" firstAttribute="leading" secondItem="Fjm-yQ-0le" secondAttribute="leading" constant="1" id="dsL-I1-pKQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fjm-yQ-0le"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblend" destination="3Wc-Fu-Vv9" id="DwT-jz-dzA"/>
+                        <outlet property="lblstart" destination="cpY-nu-j6R" id="ZHi-er-aj0"/>
+                        <outlet property="txtEndLocation" destination="qFP-Xa-nZy" id="xzH-2y-5yO"/>
+                        <outlet property="txtStartLocation" destination="MXd-Xt-C8m" id="6KT-ae-OVM"/>
+                        <outlet property="viewChooseLocation" destination="gFo-7e-CNV" id="52W-ba-WXW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7N1-oy-XCZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5452.5" y="1117.605633802817"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Car Logo tmp" width="50" height="50"/>
@@ -2243,5 +2349,6 @@ Greego to drive?</string>
         <image name="photo-camera" width="64" height="64"/>
         <image name="sedan" width="64" height="64"/>
         <image name="taxi-app-background_23-2147561164" width="626" height="626"/>
+        <image name="txt_bg" width="150" height="23"/>
     </resources>
 </document>
