@@ -49,31 +49,6 @@ class Trip_detail_ViewController: UIViewController {
         firstimg.layer.cornerRadius = firstimg.frame.size.height/2
         firstimg.clipsToBounds = true
        
-//        mainview.layer.shadowColor = UIColor.lightGray.cgColor
-//        mainview.layer.shadowOpacity = 0.5
-//        mainview.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
-//        mainview.layer.shadowRadius = 2
-//
-//        secondview.layer.shadowColor = UIColor.lightGray.cgColor
-//        secondview.layer.shadowOpacity = 0.5
-//        secondview.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
-//        secondview.layer.shadowRadius = 2
-//
-//        thirdview.layer.shadowColor = UIColor.lightGray.cgColor
-//        thirdview.layer.shadowOpacity = 0.5
-//        thirdview.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
-//        thirdview.layer.shadowRadius = 2
-//
-//        mapshadowview.layer.shadowColor = UIColor.lightGray.cgColor
-//        mapshadowview.layer.shadowOpacity = 0.5
-//        mapshadowview.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
-//        mapshadowview.layer.shadowRadius = 2
-//
-//
-//        btnshadow.layer.shadowColor = UIColor.lightGray.cgColor
-//        btnshadow.layer.shadowOpacity = 0.5
-//        btnshadow.layer.shadowOffset = CGSize(width: 1.0, height: 2.0)
-//        btnshadow.layer.shadowRadius = 2
         
         self.setShadow(view: mainview)
         self.setShadow(view: secondview)

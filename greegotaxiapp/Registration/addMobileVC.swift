@@ -36,8 +36,34 @@ class addMobileVC: UIViewController
     
     @IBAction func btnNextClicked(_ sender: Any)
     {
+        
+        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "otpVC") as! otpVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+// MARK: - USer Define Functions
+    
+    func webServiceCall()
+    {
+        if AppDelegate.hasConnectivity() == true
+        {
+            
+            let strURL = ""
+            let urlDictionary = ""
+            let postDataDictionary = Dictionary<String, Any>()
+            
+            WebServiceClass.sharedInstance.callAPIWithURLWithHandler(requestType: strURL, parameters: postDataDictionary, completionHandler: {(success,responseData,urlResponse) in
+                
+            })
+            
+        }
+        else
+        {
+            NSLog("No Internet Connection")
+        }
+        
+    }
+        
 }
