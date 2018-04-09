@@ -26,11 +26,18 @@
 		73051D972074DAB900C42207 /* Trip_detail_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73051D962074DAB900C42207 /* Trip_detail_ViewController.swift */; };
 		730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AF66720735A3E00AD8993 /* SWRevealViewController.m */; };
 		730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF66920735B9600AD8993 /* sidemenuViewController.swift */; };
+		7313A38E20788CE400A6AA89 /* ChooseDestinatioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313A38D20788CE300A6AA89 /* ChooseDestinatioVC.swift */; };
+		7313A3912078AF4000A6AA89 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313A3902078AF4000A6AA89 /* Reachability.m */; };
+		7313A3932078AF9200A6AA89 /* WebServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313A3922078AF9200A6AA89 /* WebServiceClass.swift */; };
+		734ABBA5207B20FF006D10CE /* FreeridesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ABBA4207B20FF006D10CE /* FreeridesVC.swift */; };
+		734ABBA7207B2E79006D10CE /* TripcomplitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ABBA6207B2E79006D10CE /* TripcomplitionVC.swift */; };
 		734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */; };
 		734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0A2076276500090B8A /* EmailverificationViewController.swift */; };
 		734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */; };
 		734F550C2077408200512886 /* HADropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550B2077408200512886 /* HADropDown.swift */; };
 		734F550E2077502900512886 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550D2077502900512886 /* ImageViewController.swift */; };
+		73FE07E3207B5D5900D0DE8C /* TriprequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */; };
+		73FE07E5207B8B9500D0DE8C /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE07E4207B8B9400D0DE8C /* EmailVC.swift */; };
 		83A6BF3054F46F7E7767CAE6 /* Pods_greegotaxiappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */; };
 		935F253A1361BD545BFA5B55 /* Pods_greegotaxiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */; };
 		BC2CAD3379DDE774B249D74F /* Pods_greegotaxiappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3A397F82F7B2A3D65BA816 /* Pods_greegotaxiappUITests.framework */; };
@@ -85,11 +92,19 @@
 		730AF66620735A3D00AD8993 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		730AF66720735A3E00AD8993 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		730AF66920735B9600AD8993 /* sidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuViewController.swift; sourceTree = "<group>"; };
+		7313A38D20788CE300A6AA89 /* ChooseDestinatioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDestinatioVC.swift; sourceTree = "<group>"; };
+		7313A38F2078AF4000A6AA89 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7313A3902078AF4000A6AA89 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7313A3922078AF9200A6AA89 /* WebServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceClass.swift; sourceTree = "<group>"; };
+		734ABBA4207B20FF006D10CE /* FreeridesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeridesVC.swift; sourceTree = "<group>"; };
+		734ABBA6207B2E79006D10CE /* TripcomplitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripcomplitionVC.swift; sourceTree = "<group>"; };
 		734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateprofileViewController.swift; sourceTree = "<group>"; };
 		734B9B0A2076276500090B8A /* EmailverificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailverificationViewController.swift; sourceTree = "<group>"; };
 		734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_informationViewController.swift; sourceTree = "<group>"; };
 		734F550B2077408200512886 /* HADropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADropDown.swift; sourceTree = "<group>"; };
 		734F550D2077502900512886 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriprequestVC.swift; sourceTree = "<group>"; };
+		73FE07E4207B8B9400D0DE8C /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
 		8748A7BFADDC915F22DA3B95 /* Pods-greegotaxiappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappUITests/Pods-greegotaxiappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B243F7AB790791DE39AE55F7 /* Pods-greegotaxiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.release.xcconfig"; sourceTree = "<group>"; };
 		BF614B59659D6E847AFF8C8E /* Pods-greegotaxiappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappTests/Pods-greegotaxiappTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				041CF17720777D9B00464B5D /* addMobileVC.swift */,
+				73FE07E4207B8B9400D0DE8C /* EmailVC.swift */,
 				041CF17820777D9B00464B5D /* mobilenumberViewController.swift */,
 				041CF17920777D9B00464B5D /* nameViewController.swift */,
 				041CF17A20777D9B00464B5D /* otpVC.swift */,
@@ -157,6 +173,9 @@
 		045F55642077E8D900E75EB6 /* HelperClass */ = {
 			isa = PBXGroup;
 			children = (
+				7313A3922078AF9200A6AA89 /* WebServiceClass.swift */,
+				7313A38F2078AF4000A6AA89 /* Reachability.h */,
+				7313A3902078AF4000A6AA89 /* Reachability.m */,
 				734F550B2077408200512886 /* HADropDown.swift */,
 			);
 			path = HelperClass;
@@ -190,8 +209,11 @@
 			isa = PBXGroup;
 			children = (
 				734F550D2077502900512886 /* ImageViewController.swift */,
+				7313A38D20788CE300A6AA89 /* ChooseDestinatioVC.swift */,
+				73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */,
 				041CF18A20777EB700464B5D /* MainmapViewController.swift */,
 				73051D962074DAB900C42207 /* Trip_detail_ViewController.swift */,
+				734ABBA6207B2E79006D10CE /* TripcomplitionVC.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -273,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				730AF66920735B9600AD8993 /* sidemenuViewController.swift */,
+				734ABBA4207B20FF006D10CE /* FreeridesVC.swift */,
 				730AF66620735A3D00AD8993 /* SWRevealViewController.h */,
 				730AF66720735A3E00AD8993 /* SWRevealViewController.m */,
 				730AF66520735A3C00AD8993 /* greegotaxiapp-Bridging-Header.h */,
@@ -556,12 +579,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
 				"${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPinView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,15 +626,22 @@
 				041CF18120777D9C00464B5D /* mobilenumberViewController.swift in Sources */,
 				734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */,
 				734F550C2077408200512886 /* HADropDown.swift in Sources */,
+				7313A3932078AF9200A6AA89 /* WebServiceClass.swift in Sources */,
 				041CF18220777D9C00464B5D /* nameViewController.swift in Sources */,
 				730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */,
 				734F550E2077502900512886 /* ImageViewController.swift in Sources */,
+				73FE07E3207B5D5900D0DE8C /* TriprequestVC.swift in Sources */,
 				734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */,
 				041CF18B20777EB700464B5D /* MainmapViewController.swift in Sources */,
+				734ABBA7207B2E79006D10CE /* TripcomplitionVC.swift in Sources */,
 				734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */,
 				730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */,
 				73051D932074A14900C42207 /* MaintableViewController.swift in Sources */,
+				7313A38E20788CE400A6AA89 /* ChooseDestinatioVC.swift in Sources */,
+				7313A3912078AF4000A6AA89 /* Reachability.m in Sources */,
+				734ABBA5207B20FF006D10CE /* FreeridesVC.swift in Sources */,
 				696A6191207212990015C77E /* AppDelegate.swift in Sources */,
+				73FE07E5207B8B9500D0DE8C /* EmailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

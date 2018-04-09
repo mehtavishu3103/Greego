@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Alamofire
 class addMobileVC: UIViewController
 {
     @IBOutlet weak var txtMobileNum: UITextField!
@@ -18,6 +18,7 @@ class addMobileVC: UIViewController
     {
         super.viewDidLoad()
         
+      
         // Do any additional setup after loading the view.
     }
     
@@ -36,8 +37,69 @@ class addMobileVC: UIViewController
     
     @IBAction func btnNextClicked(_ sender: Any)
     {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "otpVC") as! otpVC
-        self.navigationController?.pushViewController(vc, animated: true)
+        
+       
+        if((txtMobileNum.text?.characters.count)! < 10)
+      {
+        let alert = UIAlertController(title: "Alert", message: "Please enter correct mobile number.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        }
+        
+       else
+      {
+     
+        checkmobile()
+    
+    
+       
+        }
+        }
+
+    
+    //MARK: - USER DEFINE FUNCTIONS
+func checkmobile()
+{
+    if AppDelegate.hasConnectivity() == true
+    {
+        
+        let parameters = [
+            "contact_number":txtMobileNum.text!,
+            "is_iphone": "0"
+        ]
+        
+        Alamofire.request(WebServiceClass().BaseURL+"login", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON { (response:DataResponse<Any>) in
+            
+            switch(response.result) {
+            case .success(_):
+                if let data = response.result.value{
+                    print(response.result.value!)
+                    
+                    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                    
+                    let nextViewController = storyBoard.instantiateViewController(withIdentifier: "otpVC") as! otpVC
+                    
+                    nextViewController.strmobileno = self.txtMobileNum.text!
+                    self.navigationController?.pushViewController(nextViewController, animated: true)
+
+                }
+                break
+                
+            case .failure(_):
+                print(response.result.error)
+                break
+                
+            }
+        }
+   
     }
+    else
+    {
+    NSLog("No Internet Connection")
+    }
+    
+}
+    
+    
     
 }

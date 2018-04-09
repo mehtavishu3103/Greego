@@ -9,8 +9,9 @@ target 'greegotaxiapp' do
 pod 'SVPinView', '~> 1.0.1'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
-  pod 'HADropDown'
-    # Pods for greegotaxiapp
+pod 'HCSStarRatingView', '~> 1.5'
+    pod 'Alamofire', '~> 4.7'
+
 
   target 'greegotaxiappTests' do
     inherit! :search_paths

@@ -10,7 +10,7 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
-class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate
+class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate,UITextFieldDelegate
 {
     
     @IBOutlet weak var updateViewHeightContraint: NSLayoutConstraint!
@@ -101,6 +101,28 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
     {
         super.didReceiveMemoryWarning()
     }
+    
+    
+    
+    // MARK: - Textfield Delegate Methods
+
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
+        
+        let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChooseDestinatioVC") as! ChooseDestinatioVC
+        self.navigationController?.pushViewController(loginVC, animated: true)
+        
+        return true
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
 // MARK: - IBAction Methods
     

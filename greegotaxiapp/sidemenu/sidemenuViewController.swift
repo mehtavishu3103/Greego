@@ -47,13 +47,7 @@ class sidemenuViewController: UIViewController,UITableViewDelegate,UITableViewDa
         let dvc:UITableViewCell = tableView.dequeueReusableCell(withIdentifier:str, for: indexPath)
         var nameary = ["Payment","Your Trip","Free Rides","Help","Setting"]
         dvc.textLabel?.text = nameary[indexPath.row]
-        
-        dvc.imageView?.image = UIImage(named:"taxi-app-background_23-2147561164")
-        dvc.imageView?.layer.borderWidth=1.0
-        dvc.imageView?.layer.masksToBounds = false
-        dvc.imageView?.layer.borderColor = UIColor.white.cgColor
-        dvc.imageView?.layer.cornerRadius =  (dvc.imageView?.frame.size.height)!/2
-        dvc.imageView?.clipsToBounds = true
+    
         
         return dvc
     }
