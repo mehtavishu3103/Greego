@@ -9,7 +9,8 @@ target 'greegotaxiapp' do
 pod 'SVPinView', '~> 1.0.1'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
-  pod 'HADropDown'
+ 
+  pod 'CTCheckbox'
     # Pods for greegotaxiapp
 
   target 'greegotaxiappTests' do

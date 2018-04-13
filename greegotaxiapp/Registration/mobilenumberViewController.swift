@@ -10,12 +10,17 @@ import UIKit
 
 class mobilenumberViewController: UIViewController ,UITextFieldDelegate{
     
+    @IBOutlet weak var logoimg: UIImageView!
+    
+    
     @IBOutlet weak var txtMobileNum: UITextField!
     
 //MARK: - Delegate Methods
     override func viewDidLoad()
     {
+        
         super.viewDidLoad()
+        
     }
     
     override func didReceiveMemoryWarning()

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import DropDown
+//import DropDown
 
 class Vehicle_informationViewController: UIViewController {
     
@@ -24,7 +24,16 @@ class Vehicle_informationViewController: UIViewController {
         dropdown2.items = ["Cat", "Mouse", "Horse", "Elephant", "Dog", "Zebra"]
         dropdown3.items = ["Cat", "Mouse", "Horse", "Elephant", "Dog", "Zebra"]
         dropdown4.items = ["Cat", "Mouse", "Horse", "Elephant", "Dog", "Zebra"]
+        
+       
+        
     }
+    
+    
+    override func viewDidLayoutSubviews() {
+        
+    }
+
 
     override func didReceiveMemoryWarning()
     {
