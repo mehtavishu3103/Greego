@@ -141,7 +141,7 @@ class HADropDown: UIView {
     fileprivate var selectedIndex = -1
     
     var isCollapsed = true
-    private var table = UITableView()
+     var table = UITableView()
     
     var getSelectedIndex : Int {
         get {
@@ -178,13 +178,13 @@ class HADropDown: UIView {
         var rootView = self.superview
         
         // here we getting top superview to add table on that.
-        while rootView?.superview != nil {
+        while !(rootView is UIScrollView)  {
         rootView = rootView?.superview
        }
       
        let newFrame: CGRect = self.superview!.convert(self.frame, to: rootView)
       self.tableFrame = newFrame
-      self.table.frame = CGRect(x: newFrame.origin.x, y: (newFrame.origin.y) + (newFrame.height)+5, width: (newFrame.width), height: 0)     
+      self.table.frame = CGRect(x: newFrame.origin.x, y: (newFrame.origin.y) + (newFrame.height)+5, width: (newFrame.width), height: 0)
         
         table.backgroundColor = itemBackgroundColor
     }
@@ -208,18 +208,25 @@ class HADropDown: UIView {
             self.table.layer.cornerRadius = 4
             var rootView = self.superview
           // adding tableview to root view( we can say first view in hierarchy)
-           while rootView?.superview != nil {
+           while !(rootView is UIScrollView) {
             rootView = rootView?.superview
           }
        
           rootView?.addSubview(self.table)
 
            self.table.reloadData()
-            UIView.animate(withDuration: 0.25, animations: { 
+            
+          
+            //self.table.frame = CGRect(x: newFrame.origin.x, y: (newFrame.origin.y) + (newFrame.height)+5, width: (newFrame.width), height: 0)
+            
+           
+            UIView.animate(withDuration: 0.25, animations: {
+               
+
                 self.table.frame = CGRect(x: self.tableFrame.origin.x, y: self.tableFrame.origin.y + self.frame.height+5, width: self.frame.width, height: height)
               
             })
-
+           
             
             if delegate != nil {
                 delegate.didShow(dropDown: self)

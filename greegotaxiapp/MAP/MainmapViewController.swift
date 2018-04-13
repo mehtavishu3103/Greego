@@ -11,7 +11,7 @@ import GoogleMaps
 import GooglePlaces
 
 
-class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, UITextFieldDelegate
+class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, UITextFieldDelegate, locationDelegate
 {
     
     @IBOutlet weak var updateViewHeightContraint: NSLayoutConstraint!
@@ -102,14 +102,29 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
     {
         super.didReceiveMemoryWarning()
     }
+    
+    func closePlacePicker()
+    {
+        self.navigationController?.popViewController(animated: true)
+    }
   
+    func sendCordsBack(source:GMSPlace, destination: GMSPlace)
+    {
+        let sourceMarker = GMSMarker(position: source.coordinate)
+        let destMarker = GMSMarker(position: destination.coordinate)
+        
+        sourceMarker.map = userMapView
+        destMarker.map = userMapView
+    }
     
 //MARK: - TextField Delegate Methods
 
     func textFieldDidBeginEditing(_ textField: UITextField)
     {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChooseDestinatioVC") as! ChooseDestinatioVC
+        self.view.endEditing(true)
         self.navigationController?.pushViewController(vc, animated: true)
+        
     
     }
     

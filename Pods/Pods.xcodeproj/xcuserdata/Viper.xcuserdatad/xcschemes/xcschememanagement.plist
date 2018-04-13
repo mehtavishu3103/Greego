@@ -4,35 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DropDown.xcscheme</key>
+		<key>Pods-greegotaxiapp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-greegotaxiapp.xcscheme</key>
+		<key>SVPinView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-greegotaxiappTests.xcscheme</key>
+		<key>YNDropDownMenu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
-		</dict>
-		<key>Pods-greegotaxiappUITests.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>SVPinView.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>UIDropDown.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
