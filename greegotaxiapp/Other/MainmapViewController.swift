@@ -10,6 +10,7 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
+<<<<<<< HEAD
 <<<<<<< HEAD:greegotaxiapp/MAP/MainmapViewController.swift
 
 class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, UITextFieldDelegate, locationDelegate
@@ -19,6 +20,9 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
 >>>>>>> Greego-Dharika:greegotaxiapp/Other/MainmapViewController.swift
 =======
 >>>>>>> Greego-Vishal:greegotaxiapp/MAP/MainmapViewController.swift
+=======
+class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate,UITextFieldDelegate
+>>>>>>> Greego-Jay
 {
     
     @IBOutlet weak var updateViewHeightContraint: NSLayoutConstraint!
@@ -142,6 +146,28 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
     
 =======
 >>>>>>> Greego-Dharika:greegotaxiapp/Other/MainmapViewController.swift
+    
+    
+    
+    // MARK: - Textfield Delegate Methods
+
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
+        
+        let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChooseDestinatioVC") as! ChooseDestinatioVC
+        self.navigationController?.pushViewController(loginVC, animated: true)
+        
+        return true
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
 // MARK: - IBAction Methods
     

@@ -14,7 +14,11 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
+<<<<<<< HEAD
                BlueprintIdentifier = '11E1D22F11D25C4B227708A228BE6F8A'
+=======
+               BlueprintIdentifier = '9391CB6CEEF8F0A6D7B45EF590D9C819'
+>>>>>>> Greego-Jay
                BlueprintName = 'SVPinView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SVPinView.framework'>

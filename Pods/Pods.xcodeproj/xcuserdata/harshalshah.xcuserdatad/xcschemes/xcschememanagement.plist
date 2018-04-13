@@ -4,6 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
+=======
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+>>>>>>> Greego-Jay
 		<key>CTCheckbox.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -14,22 +22,42 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-greegotaxiapp.xcscheme</key>
+		<key>EDStarRating.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
-		<key>Pods-greegotaxiappTests.xcscheme</key>
+		<key>FloatRatingView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>HCSStarRatingView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-greegotaxiappUITests.xcscheme</key>
+		<key>Pods-greegotaxiapp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Pods-greegotaxiappTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-greegotaxiappUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>SVPinView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>TQStarRatingView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>

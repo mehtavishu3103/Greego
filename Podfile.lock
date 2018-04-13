@@ -1,11 +1,16 @@
 PODS:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - CTCheckbox (0.0.5)
 >>>>>>> Greego-Dharika
 =======
 >>>>>>> Greego-Vishal
+=======
+  - Alamofire (4.7.1)
+  - CTCheckbox (0.0.5)
+>>>>>>> Greego-Jay
   - GoogleMaps (2.6.0):
     - GoogleMaps/Maps (= 2.6.0)
   - GoogleMaps/Base (2.6.0)
@@ -13,10 +18,12 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (2.6.0):
     - GoogleMaps/Base (= 2.6.0)
+  - HCSStarRatingView (1.5)
   - SVPinView (1.0.1)
   - YNDropDownMenu (3.0.1)
 
 DEPENDENCIES:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -27,10 +34,18 @@ DEPENDENCIES:
   - GoogleMaps
   - GooglePlaces
   - GooglePlaces (~> 2.1)
+=======
+  - Alamofire (~> 4.7)
+  - CTCheckbox
+  - GoogleMaps
+  - GooglePlaces
+  - HCSStarRatingView (~> 1.5)
+>>>>>>> Greego-Jay
   - SVPinView (~> 1.0.1)
   - YNDropDownMenu
 
 SPEC CHECKSUMS:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -38,11 +53,17 @@ SPEC CHECKSUMS:
 >>>>>>> Greego-Dharika
 =======
 >>>>>>> Greego-Vishal
+=======
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  CTCheckbox: fec0e51c635ad555effd230a1fa186105010a382
+>>>>>>> Greego-Jay
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
   SVPinView: c44afcba589fd2d316d4a4d28cdd527699506a80
   YNDropDownMenu: 967ebe0c633ce8f40e8667574525aa230ba24560
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 PODFILE CHECKSUM: 3d02c4dc6ad578451f4c823bd43039793e519c5e
@@ -52,5 +73,8 @@ PODFILE CHECKSUM: 691a807e097f9bfa7b47463f27fc971b46fa0837
 =======
 PODFILE CHECKSUM: 3d02c4dc6ad578451f4c823bd43039793e519c5e
 >>>>>>> Greego-Vishal
+=======
+PODFILE CHECKSUM: ad2e5cc675de440ad610327efca534735062d550
+>>>>>>> Greego-Jay
 
 COCOAPODS: 1.4.0

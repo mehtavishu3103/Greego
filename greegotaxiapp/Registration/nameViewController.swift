@@ -37,6 +37,7 @@ class nameViewController: UIViewController
         txtlastname.layer.addSublayer(border1)
         txtlastname.layer.masksToBounds = true
         
+        
     }
 
     override func didReceiveMemoryWarning()
@@ -44,4 +45,49 @@ class nameViewController: UIViewController
         super.didReceiveMemoryWarning()
     }
 
+    //MARK: - IBAction Methods
+
+    @IBAction func nextaction(_ sender: Any) {
+       if(txtfirstname.text == "")
+       {
+        
+        let alert = UIAlertController(title: "Alert", message: "Please Enter Firstname", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        
+        
+        
+        
+        }
+      else  if(txtlastname.text == "")
+        {
+            
+            let alert = UIAlertController(title: "Alert", message: "Please Enter Lastname", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            
+            
+            
+            
+        }
+       else
+       {
+        
+        let user = UserDefaults.standard
+        
+        user.set(txtfirstname.text!, forKey: "fname")
+        user.set(txtlastname.text!, forKey: "lname")
+
+        user.synchronize()
+        
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TermandconditionVC") as! TermandconditionVC
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+        }
+        
+        
+    }
+    
+    
 }

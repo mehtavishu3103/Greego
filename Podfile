@@ -10,6 +10,7 @@ target 'greegotaxiapp' do
   pod 'GooglePlaces'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  pod 'HADropDown'
   pod 'GooglePlaces', '~> 2.1'
   pod 'YNDropDownMenu'
@@ -17,6 +18,12 @@ target 'greegotaxiapp' do
  
   pod 'CTCheckbox'
     # Pods for greegotaxiapp
+=======
+pod 'HCSStarRatingView', '~> 1.5'
+    pod 'Alamofire', '~> 4.7'
+    pod 'CTCheckbox'
+
+>>>>>>> Greego-Jay
 
   target 'greegotaxiappTests' do
     inherit! :search_paths

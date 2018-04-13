@@ -4,7 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>CTCheckbox.xcscheme</key>
+=======
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CTCheckbox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HCSStarRatingView.xcscheme</key>
+>>>>>>> Greego-Jay
 		<dict>
 			<key>isShown</key>
 			<false/>

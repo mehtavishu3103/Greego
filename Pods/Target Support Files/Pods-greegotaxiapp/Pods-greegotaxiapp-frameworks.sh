@@ -136,22 +136,34 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   install_framework "${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework"
 >>>>>>> Greego-Dharika
 =======
 >>>>>>> Greego-Vishal
+=======
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework"
+>>>>>>> Greego-Jay
   install_framework "${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   install_framework "${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework"
 >>>>>>> Greego-Dharika
 =======
 >>>>>>> Greego-Vishal
+=======
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework"
+>>>>>>> Greego-Jay
   install_framework "${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework"
 fi
