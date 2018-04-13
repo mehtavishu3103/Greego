@@ -1,5 +1,4 @@
 PODS:
-  - DropDown (2.3.1)
   - GoogleMaps (2.6.0):
     - GoogleMaps/Maps (= 2.6.0)
   - GoogleMaps/Base (2.6.0)
@@ -8,19 +7,21 @@ PODS:
   - GooglePlaces (2.6.0):
     - GoogleMaps/Base (= 2.6.0)
   - SVPinView (1.0.1)
+  - YNDropDownMenu (3.0.1)
 
 DEPENDENCIES:
-  - DropDown
   - GoogleMaps
   - GooglePlaces
+  - GooglePlaces (~> 2.1)
   - SVPinView (~> 1.0.1)
+  - YNDropDownMenu
 
 SPEC CHECKSUMS:
-  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   SVPinView: c44afcba589fd2d316d4a4d28cdd527699506a80
+  YNDropDownMenu: 967ebe0c633ce8f40e8667574525aa230ba24560
 
-PODFILE CHECKSUM: 03aca9d47dde1bed78228141f91c27895a8eed3f
+PODFILE CHECKSUM: 3d02c4dc6ad578451f4c823bd43039793e519c5e
 
 COCOAPODS: 1.4.0

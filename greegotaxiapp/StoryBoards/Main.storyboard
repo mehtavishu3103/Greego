@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pyA-vk-LAR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e5A-bW-UTN">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,7 @@
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -2239,8 +2240,11 @@ Greego to drive?</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Map – Set Destination – 1" translatesAutoresizingMaskIntoConstraints="NO" id="0LL-PN-7eZ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFo-7e-CNV">
-                                <rect key="frame" x="1" y="1" width="318" height="180"/>
+                                <rect key="frame" x="2" y="1" width="320" height="180"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpY-nu-j6R">
                                         <rect key="frame" x="24" y="52.5" width="42" height="42"/>
@@ -2269,24 +2273,28 @@ Greego to drive?</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Gv-itW">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Gv-itW">
                                         <rect key="frame" x="9" y="19" width="28" height="23.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="wPT-Gv-itW" secondAttribute="height" multiplier="6:5" id="ATU-dw-oG0"/>
                                         </constraints>
-                                        <state key="normal" backgroundImage="back"/>
+                                        <state key="normal" image="Back_button"/>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pickup Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXd-Xt-C8m">
-                                        <rect key="frame" x="74" y="53" width="228" height="42"/>
-                                        <color key="textColor" red="0.43529411759999997" green="0.62745098040000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <rect key="frame" x="74" y="53" width="230" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textDidChange:" destination="HWR-gZ-bBH" eventType="editingChanged" id="5uR-3j-u4g"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Where Do you want to go?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qFP-Xa-nZy">
-                                        <rect key="frame" x="74" y="120.5" width="229" height="42"/>
-                                        <color key="textColor" red="0.43529411759999997" green="0.62745098040000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <rect key="frame" x="74" y="120.5" width="231" height="42"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="destTextDidChange:" destination="HWR-gZ-bBH" eventType="editingChanged" id="aax-EP-91u"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.81568627449999997" green="0.85490196080000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -2313,18 +2321,102 @@ Greego to drive?</string>
                                     <constraint firstItem="3Wc-Fu-Vv9" firstAttribute="width" secondItem="cpY-nu-j6R" secondAttribute="width" id="y8X-2N-b4Q"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GlE-E2-6QE">
+                                <rect key="frame" x="0.0" y="179" width="324" height="389"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="0.33333333333333331" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="setLocationCell" rowHeight="63" id="9mw-WW-lUI" customClass="setLocationCell" customModule="greegotaxiapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="324" height="63"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9mw-WW-lUI" id="YwD-HV-HSf">
+                                            <rect key="frame" x="0.0" y="0.0" width="324" height="63"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location ico" translatesAutoresizingMaskIntoConstraints="NO" id="uSY-FT-esf">
+                                                    <rect key="frame" x="15" y="16.5" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="uSY-FT-esf" secondAttribute="height" multiplier="1:1" id="Iu7-0t-Pdq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93W-m2-3C7">
+                                                    <rect key="frame" x="53" y="6.5" width="256" height="28"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="93W-m2-3C7" secondAttribute="height" multiplier="230:25" id="xzk-cO-cNb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYb-UY-jLc">
+                                                    <rect key="frame" x="53" y="35" width="256" height="21.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="0.70136443661971826" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZN-MU-Nl3">
+                                                    <rect key="frame" x="0.0" y="60.5" width="324" height="2"/>
+                                                    <color key="backgroundColor" white="0.33333333333333331" alpha="0.40316901408450706" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="IIJ-vs-g8c"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="0.50462147887323938" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="TYb-UY-jLc" firstAttribute="trailing" secondItem="93W-m2-3C7" secondAttribute="trailing" id="1it-BW-nNJ"/>
+                                                <constraint firstItem="uSY-FT-esf" firstAttribute="width" secondItem="YwD-HV-HSf" secondAttribute="height" multiplier="15:31" id="4hc-IB-RPa"/>
+                                                <constraint firstItem="TYb-UY-jLc" firstAttribute="height" secondItem="93W-m2-3C7" secondAttribute="height" multiplier="0.75" id="EcF-dg-KBr"/>
+                                                <constraint firstItem="93W-m2-3C7" firstAttribute="top" secondItem="YwD-HV-HSf" secondAttribute="top" constant="6.5" id="FZK-OB-pRQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="XZN-MU-Nl3" secondAttribute="trailing" id="RYd-ri-uVg"/>
+                                                <constraint firstItem="93W-m2-3C7" firstAttribute="leading" secondItem="uSY-FT-esf" secondAttribute="trailing" constant="8" id="V7Z-mh-Y1g"/>
+                                                <constraint firstItem="TYb-UY-jLc" firstAttribute="leading" secondItem="93W-m2-3C7" secondAttribute="leading" id="VRk-1G-Svw"/>
+                                                <constraint firstItem="TYb-UY-jLc" firstAttribute="centerX" secondItem="93W-m2-3C7" secondAttribute="centerX" id="W2S-YO-yeH"/>
+                                                <constraint firstItem="TYb-UY-jLc" firstAttribute="width" secondItem="93W-m2-3C7" secondAttribute="width" id="cR1-YE-itU"/>
+                                                <constraint firstItem="XZN-MU-Nl3" firstAttribute="leading" secondItem="YwD-HV-HSf" secondAttribute="leading" id="edm-QY-zuA"/>
+                                                <constraint firstAttribute="bottom" secondItem="XZN-MU-Nl3" secondAttribute="bottom" id="l3l-cn-vgl"/>
+                                                <constraint firstAttribute="bottom" secondItem="TYb-UY-jLc" secondAttribute="bottom" constant="6" id="n9a-aD-pp5"/>
+                                                <constraint firstItem="uSY-FT-esf" firstAttribute="centerY" secondItem="YwD-HV-HSf" secondAttribute="centerY" id="oDC-oW-K1h"/>
+                                                <constraint firstAttribute="trailing" secondItem="93W-m2-3C7" secondAttribute="trailing" constant="15" id="zSk-nK-RXJ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="0.29756272007042256" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="uSY-FT-esf" firstAttribute="leading" secondItem="9mw-WW-lUI" secondAttribute="leading" constant="15" id="59c-Hc-dF5"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imgView" destination="uSY-FT-esf" id="wHk-7J-dae"/>
+                                            <outlet property="lblAddress" destination="TYb-UY-jLc" id="Jhu-mI-qAM"/>
+                                            <outlet property="lblName" destination="93W-m2-3C7" id="uTg-9o-8rP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="bottom" secondItem="0LL-PN-7eZ" secondAttribute="bottom" id="1wL-gd-Po5"/>
+                            <constraint firstItem="GlE-E2-6QE" firstAttribute="leading" secondItem="gFo-7e-CNV" secondAttribute="leading" constant="-2" id="24V-j0-bQI"/>
+                            <constraint firstItem="GlE-E2-6QE" firstAttribute="top" secondItem="gFo-7e-CNV" secondAttribute="bottom" constant="-2" id="4uW-6I-ZvQ"/>
+                            <constraint firstItem="GlE-E2-6QE" firstAttribute="trailing" secondItem="gFo-7e-CNV" secondAttribute="trailing" constant="2" id="50q-EJ-njN"/>
+                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="trailing" secondItem="0LL-PN-7eZ" secondAttribute="trailing" id="OQf-aR-0Ec"/>
+                            <constraint firstItem="0LL-PN-7eZ" firstAttribute="leading" secondItem="Fjm-yQ-0le" secondAttribute="leading" id="Ovb-zU-2FI"/>
                             <constraint firstItem="Fjm-yQ-0le" firstAttribute="top" secondItem="gFo-7e-CNV" secondAttribute="top" constant="19" id="ber-Ri-S6E"/>
-                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="trailing" secondItem="gFo-7e-CNV" secondAttribute="trailing" constant="1" id="dLS-DW-mUv"/>
-                            <constraint firstItem="gFo-7e-CNV" firstAttribute="leading" secondItem="Fjm-yQ-0le" secondAttribute="leading" constant="1" id="dsL-I1-pKQ"/>
+                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="trailing" secondItem="gFo-7e-CNV" secondAttribute="trailing" constant="-2" id="dLS-DW-mUv"/>
+                            <constraint firstItem="gFo-7e-CNV" firstAttribute="leading" secondItem="Fjm-yQ-0le" secondAttribute="leading" constant="2" id="dsL-I1-pKQ"/>
+                            <constraint firstItem="0LL-PN-7eZ" firstAttribute="top" secondItem="Fjm-yQ-0le" secondAttribute="top" id="ixv-Q1-ViM"/>
+                            <constraint firstItem="Fjm-yQ-0le" firstAttribute="bottom" secondItem="GlE-E2-6QE" secondAttribute="bottom" id="ygU-0f-CPS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fjm-yQ-0le"/>
                     </view>
                     <connections>
                         <outlet property="lblend" destination="3Wc-Fu-Vv9" id="DwT-jz-dzA"/>
                         <outlet property="lblstart" destination="cpY-nu-j6R" id="ZHi-er-aj0"/>
+                        <outlet property="tblAutoComplete" destination="GlE-E2-6QE" id="PAe-d3-iVN"/>
                         <outlet property="txtEndLocation" destination="qFP-Xa-nZy" id="xzH-2y-5yO"/>
                         <outlet property="txtStartLocation" destination="MXd-Xt-C8m" id="6KT-ae-OVM"/>
                         <outlet property="viewChooseLocation" destination="gFo-7e-CNV" id="52W-ba-WXW"/>
@@ -2336,13 +2428,16 @@ Greego to drive?</string>
         </scene>
     </scenes>
     <resources>
+        <image name="Back_button" width="35" height="33"/>
         <image name="Car Logo tmp" width="50" height="50"/>
         <image name="Logout" width="512" height="512"/>
+        <image name="Map – Set Destination – 1" width="375" height="667"/>
         <image name="Post_BG_(White+shadow)" width="150" height="90"/>
         <image name="back" width="338" height="338"/>
         <image name="backimg" width="225" height="225"/>
         <image name="contact" width="64" height="64"/>
         <image name="gallery" width="64" height="64"/>
+        <image name="location ico" width="23" height="23"/>
         <image name="minus-sign-in-a-circle" width="64" height="64"/>
         <image name="mobile-phone-outline" width="64" height="64"/>
         <image name="next-button-png" width="2000" height="2000"/>
