@@ -13,9 +13,12 @@ import GooglePlaces
 <<<<<<< HEAD:greegotaxiapp/MAP/MainmapViewController.swift
 
 class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, UITextFieldDelegate, locationDelegate
+<<<<<<< HEAD:greegotaxiapp/Other/MainmapViewController.swift
 =======
 class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate
 >>>>>>> Greego-Dharika:greegotaxiapp/Other/MainmapViewController.swift
+=======
+>>>>>>> Greego-Vishal:greegotaxiapp/MAP/MainmapViewController.swift
 {
     
     @IBOutlet weak var updateViewHeightContraint: NSLayoutConstraint!
@@ -107,7 +110,10 @@ class MainmapViewController: UIViewController, CLLocationManagerDelegate, GMSMap
     {
         super.didReceiveMemoryWarning()
     }
+<<<<<<< HEAD:greegotaxiapp/Other/MainmapViewController.swift
 <<<<<<< HEAD:greegotaxiapp/MAP/MainmapViewController.swift
+=======
+>>>>>>> Greego-Vishal:greegotaxiapp/MAP/MainmapViewController.swift
     
     func closePlacePicker()
     {

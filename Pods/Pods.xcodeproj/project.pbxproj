@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		0028009557A349F19CCB8EDA915771F2 /* SVPinView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B31D0D7304A82DAD7A6EBE216E91F80 /* SVPinView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DD18F45C45ED6F19EC47944CE8E5CF8 /* YNDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F81A6690BB1A5775CFCC14658E3AC3 /* YNDropDownMenu-dummy.m */; };
 		0E80042F5CF2D4D5E6A6E2FB8D7F6C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -29,6 +32,7 @@
 		BEA75D814CB365F4A199CAC83BBF8914 /* SVPinView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA80DF65F75A37FAB09F925B843EE17 /* SVPinView-dummy.m */; };
 		D06AD1B7E4FC9C2E4EBEBA5840CE0783 /* YNDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3DB3E7B1696F9190D5B6B4B253F3E /* YNDropDownButton.swift */; };
 		EA9EF8D7C6D07F902EB26AF7653DE969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+<<<<<<< HEAD
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,11 +89,32 @@
 			remoteGlobalIDString = 572EE5884A4B95D36050E55B21A15CA9;
 			remoteInfo = CTCheckbox;
 >>>>>>> Greego-Dharika
+=======
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2E72904C188C33C0054EEFD89BBDEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3672528AC87949A1B2B3E88957DAAC4A;
+			remoteInfo = YNDropDownMenu;
+		};
+		E239C8485D8AB400C7D896582A1EF422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712F934655821AF1AAFB8DD4FAFE50FC;
+			remoteInfo = SVPinView;
+>>>>>>> Greego-Vishal
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		0202512AAF45567A1234AFAB361F6F7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02AD07D0ADD33C151570ABF1675E4AB7 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		07AB4E71D75B1A6420261348116C0B88 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
@@ -119,6 +144,7 @@
 		77AB9916CD99B4A5A1690420C063957D /* IBInspectables.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = IBInspectables.png; path = SVPinView/Screenshots/IBInspectables.png; sourceTree = "<group>"; };
 		7F0B906846B6C0D68E62C3FE89F0E075 /* Pods_greegotaxiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_greegotaxiapp.framework; path = "Pods-greegotaxiapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B473A4ECDD36D32A28EB6F64A7CC4E /* YNDropDownDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDelegate.swift; path = YNDropDownMenu/YNDropDownDelegate.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99947001ACB0FDFE760391B749F2BDB6 /* YNDropDownStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownStatus.swift; path = YNDropDownMenu/YNDropDownStatus.swift; sourceTree = "<group>"; };
 		9C18D6A43AFA1696DC63780E31359281 /* SVPinView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SVPinView.xib; path = "SVPinView/Source/XIB's/SVPinView.xib"; sourceTree = "<group>"; };
@@ -264,6 +290,49 @@
 			files = (
 				C99FA9579FD83D285087881905ED670B /* Foundation.framework in Frameworks */,
 >>>>>>> Greego-Dharika
+=======
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99947001ACB0FDFE760391B749F2BDB6 /* YNDropDownStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownStatus.swift; path = YNDropDownMenu/YNDropDownStatus.swift; sourceTree = "<group>"; };
+		9C18D6A43AFA1696DC63780E31359281 /* SVPinView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SVPinView.xib; path = "SVPinView/Source/XIB's/SVPinView.xib"; sourceTree = "<group>"; };
+		9E117FA934469E1E15595E74A4BAAABC /* PinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinViewController.swift; path = SVPinView/Example/PinViewController.swift; sourceTree = "<group>"; };
+		A414518AF2E357A4C024B51182D5EC4F /* SVPinCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SVPinCell.xib; path = "SVPinView/Source/XIB's/SVPinCell.xib"; sourceTree = "<group>"; };
+		A5232986FE842479477AC87C10F0ADBB /* Pods-greegotaxiapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-greegotaxiapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7405882AF5F8D5D70136856F7A91F0E /* YNDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		AD9FEE72E8DE8DB218158EC7C196B101 /* SVPinView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVPinView.framework; path = SVPinView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D46CBB419EE4E373DA2AA8DC98AC9F4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2146DDEC9A564BF4CFC3F967B42F772 /* SVPinView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVPinView.swift; path = SVPinView/Source/Classes/SVPinView.swift; sourceTree = "<group>"; };
+		E9CA357A89752E9FF2B4B7514A36AAED /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		EC3357F7EF6FABB7DA7C83BFC5F6C5F7 /* YNDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YNDropDownMenu.framework; path = YNDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0384AC3609D290D474AA7A2C315572B /* Pods-greegotaxiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-greegotaxiapp.release.xcconfig"; sourceTree = "<group>"; };
+		F0AEFF8E0E7B3ABA170F36D8D9CEFC0A /* YNDropDownDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDeprecated.swift; path = YNDropDownMenu/YNDropDownDeprecated.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14FD06B99EEB7F2C94882B1BB31CBD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EF8D7C6D07F902EB26AF7653DE969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B568AD383070E8D0503F0CB6B31FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD38DBEF44711ABB4CF1DA31C097FE68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA22CCFF092D7AF71F7CC3B2B085FB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E80042F5CF2D4D5E6A6E2FB8D7F6C87 /* Foundation.framework in Frameworks */,
+				2AD5CB5398E477AA888EE71F16BEEA26 /* UIKit.framework in Frameworks */,
+>>>>>>> Greego-Vishal
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +340,9 @@
 
 /* Begin PBXGroup section */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		012FAF261620EFB2A166CA457E8824DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +355,7 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SVPinView";
+<<<<<<< HEAD
 			sourceTree = "<group>";
 		};
 		326CE6F966878E14045FAF46133909F3 /* Base */ = {
@@ -313,6 +386,16 @@
 			);
 			name = Resources;
 >>>>>>> Greego-Dharika
+=======
+			sourceTree = "<group>";
+		};
+		326CE6F966878E14045FAF46133909F3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8DBAFF35174BE71D6F39C92DA3067432 /* Frameworks */,
+			);
+			name = Base;
+>>>>>>> Greego-Vishal
 			sourceTree = "<group>";
 		};
 		37E424D920AC4E63AF39CA3B30B6FFB8 /* Products */ = {
@@ -325,6 +408,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		3A2C3383EBF560E6283AA7E43415D208 /* Pods-greegotaxiapp */ = {
 			isa = PBXGroup;
@@ -346,11 +430,27 @@
 				92BA518173812050D5E54E8E5211766E /* Base */,
 				96FCE0827850171F33947A541F87ADDE /* Maps */,
 >>>>>>> Greego-Dharika
+=======
+		3A2C3383EBF560E6283AA7E43415D208 /* Pods-greegotaxiapp */ = {
+			isa = PBXGroup;
+			children = (
+				577156D8FFFDAB41B00919ED24162037 /* Info.plist */,
+				6D7265D18D05C381FFE19EBD1F0BC3FE /* Pods-greegotaxiapp.modulemap */,
+				30E7E874C76FD471AA989D73F22A1816 /* Pods-greegotaxiapp-acknowledgements.markdown */,
+				A5232986FE842479477AC87C10F0ADBB /* Pods-greegotaxiapp-acknowledgements.plist */,
+				4DA93435792A58D48CE56C36DE6C83A6 /* Pods-greegotaxiapp-dummy.m */,
+				0DE721F4CBEC3E411843C90867EA140A /* Pods-greegotaxiapp-frameworks.sh */,
+				58EF51C6ABFB83EF3F99DC89D77A6E15 /* Pods-greegotaxiapp-resources.sh */,
+				1DE9093EC9593195528B2ADA6FD2AF98 /* Pods-greegotaxiapp-umbrella.h */,
+				09D3278B4F296D2697A021A3443C46C2 /* Pods-greegotaxiapp.debug.xcconfig */,
+				F0384AC3609D290D474AA7A2C315572B /* Pods-greegotaxiapp.release.xcconfig */,
+>>>>>>> Greego-Vishal
 			);
 			name = "Pods-greegotaxiapp";
 			path = "Target Support Files/Pods-greegotaxiapp";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
@@ -362,16 +462,26 @@
 			children = (
 				2FF1C2F3B1ED9C75DDC594B4373BDDC5 /* GoogleMapsBase.framework */,
 >>>>>>> Greego-Dharika
+=======
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+>>>>>>> Greego-Vishal
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
 				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+<<<<<<< HEAD
 =======
 		33082E0E852BB332AE35A9421F489309 /* SVPinView */ = {
 			isa = PBXGroup;
@@ -431,10 +541,22 @@
 			isa = PBXGroup;
 			children = (
 				707D07974ED13407144D947E23A035FE /* GooglePlaces.bundle */,
+=======
 			);
-			name = Resources;
+			name = iOS;
 			sourceTree = "<group>";
 		};
+		648B9C76D5DD695903EAF5F128AAE6F6 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				D3DBF75CADED491B136FF1C7F012359C /* Frameworks */,
+				AAD5AEFA02FCF9F8901FC6F2557F6B4C /* Resources */,
+>>>>>>> Greego-Vishal
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
 		78D8393A3DE62DA5EAAB58AD3AF361C9 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,12 +591,31 @@
 				E94BBD6C71369106B634DF697A8DDB0F /* GoogleMapsCore.framework */,
 			);
 			name = Frameworks;
+=======
+		6A6B9DD0AB17A30F67A2A314A116B460 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				707D07974ED13407144D947E23A035FE /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		78D8393A3DE62DA5EAAB58AD3AF361C9 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				326CE6F966878E14045FAF46133909F3 /* Base */,
+				648B9C76D5DD695903EAF5F128AAE6F6 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+>>>>>>> Greego-Vishal
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+<<<<<<< HEAD
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BE0C1E9F2C627E1C1C52DBB1EE754856 /* Pods */,
 				923A5333F61B6E20A8C9D3AE537E7502 /* Products */,
@@ -506,11 +647,25 @@
 				A28218C27BBBF6443D419AC2C719E976 /* CTCheckbox.h */,
 				CA157F0C15181B28C16F612FC794C8A6 /* CTCheckbox.m */,
 				11411DD3AD67894E6625B975D20312C5 /* Support Files */,
+=======
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C3796F4A7F937B68715C5A7BA1FF006A /* Pods */,
+				37E424D920AC4E63AF39CA3B30B6FFB8 /* Products */,
+				9960EA8891DD66ADD1F106CA0FAA287D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBAFF35174BE71D6F39C92DA3067432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AD07D0ADD33C151570ABF1675E4AB7 /* GoogleMapsBase.framework */,
+>>>>>>> Greego-Vishal
 			);
 			name = CTCheckbox;
 			path = CTCheckbox;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		923A5333F61B6E20A8C9D3AE537E7502 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,10 +684,28 @@
 			isa = PBXGroup;
 			children = (
 				3A2C3383EBF560E6283AA7E43415D208 /* Pods-greegotaxiapp */,
+=======
+		8EF884B034027E63066AE81419032049 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77AB9916CD99B4A5A1690420C063957D /* IBInspectables.png */,
+				A414518AF2E357A4C024B51182D5EC4F /* SVPinCell.xib */,
+				9C18D6A43AFA1696DC63780E31359281 /* SVPinView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		969C0BF0FA3AFDBBC1DCEC5F0717DCB2 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E83F110DD663A70AB769C1EA39DB1 /* Frameworks */,
+				6A6B9DD0AB17A30F67A2A314A116B460 /* Resources */,
+>>>>>>> Greego-Vishal
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		A55D56BFCFBA4D2A3E70642B3E091F97 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,19 +738,58 @@
 			children = (
 				79F0742E49A6886E384A85F8B97F9831 /* Frameworks */,
 				BB102A24772D6595E9722A91229F3C1D /* Resources */,
+=======
+		9960EA8891DD66ADD1F106CA0FAA287D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A2C3383EBF560E6283AA7E43415D208 /* Pods-greegotaxiapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A55D56BFCFBA4D2A3E70642B3E091F97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D46CBB419EE4E373DA2AA8DC98AC9F4D /* Info.plist */,
+				67C1C073C895E5384B2998131C7A1D19 /* YNDropDownMenu.modulemap */,
+				A7405882AF5F8D5D70136856F7A91F0E /* YNDropDownMenu.xcconfig */,
+				66F81A6690BB1A5775CFCC14658E3AC3 /* YNDropDownMenu-dummy.m */,
+				0B4BC29E306B4639F718B66E42213023 /* YNDropDownMenu-prefix.pch */,
+				43FC49B6C7E1F34854C31006DE2903ED /* YNDropDownMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YNDropDownMenu";
+			sourceTree = "<group>";
+		};
+		AAD5AEFA02FCF9F8901FC6F2557F6B4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28DF24D8C85D2970F5C181083574B57F /* GoogleMaps.bundle */,
+>>>>>>> Greego-Vishal
 			);
 			name = Maps;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		BB102A24772D6595E9722A91229F3C1D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				BC05A8763BE1E104D949A05D07494600 /* GoogleMaps.bundle */,
 >>>>>>> Greego-Dharika
+=======
+		C3796F4A7F937B68715C5A7BA1FF006A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78D8393A3DE62DA5EAAB58AD3AF361C9 /* GoogleMaps */,
+				969C0BF0FA3AFDBBC1DCEC5F0717DCB2 /* GooglePlaces */,
+				FE6F70339B30DA1D43E30E09F2008563 /* SVPinView */,
+				D32A39F2816C942D932814B874279588 /* YNDropDownMenu */,
+>>>>>>> Greego-Vishal
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		C3796F4A7F937B68715C5A7BA1FF006A /* Pods */ = {
 			isa = PBXGroup;
@@ -628,6 +840,26 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+=======
+		D32A39F2816C942D932814B874279588 /* YNDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				47C3DB3E7B1696F9190D5B6B4B253F3E /* YNDropDownButton.swift */,
+				88B473A4ECDD36D32A28EB6F64A7CC4E /* YNDropDownDelegate.swift */,
+				F0AEFF8E0E7B3ABA170F36D8D9CEFC0A /* YNDropDownDeprecated.swift */,
+				24A00427EFD0D5219E65B9ECC4C053CA /* YNDropDownMenu.swift */,
+				99947001ACB0FDFE760391B749F2BDB6 /* YNDropDownStatus.swift */,
+				71ACBDF537F74919E4EAA6BAABF495A1 /* YNDropDownView.swift */,
+				A55D56BFCFBA4D2A3E70642B3E091F97 /* Support Files */,
+			);
+			name = YNDropDownMenu;
+			path = YNDropDownMenu;
+			sourceTree = "<group>";
+		};
+		D3DBF75CADED491B136FF1C7F012359C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+>>>>>>> Greego-Vishal
 				07AB4E71D75B1A6420261348116C0B88 /* GoogleMaps.framework */,
 				3C02954347CC9E4E7CF49E177BD2BE07 /* GoogleMapsCore.framework */,
 			);
@@ -635,6 +867,7 @@
 			sourceTree = "<group>";
 		};
 		FA5E83F110DD663A70AB769C1EA39DB1 /* Frameworks */ = {
+<<<<<<< HEAD
 =======
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
@@ -643,6 +876,8 @@
 		};
 		D9B96EE07A8870A3160226711D76CA75 /* Pods-greegotaxiapp */ = {
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 			isa = PBXGroup;
 			children = (
 				E9CA357A89752E9FF2B4B7514A36AAED /* GooglePlaces.framework */,
@@ -651,6 +886,9 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		FE6F70339B30DA1D43E30E09F2008563 /* SVPinView */ = {
 			isa = PBXGroup;
 			children = (
@@ -661,6 +899,7 @@
 			);
 			name = SVPinView;
 			path = SVPinView;
+<<<<<<< HEAD
 =======
 		DB1F375B87081F3773C128AEB027C3A3 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -669,11 +908,14 @@
 			);
 			name = Frameworks;
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		362613128DFB35BB9777ADB884E76723 /* Headers */ = {
 =======
@@ -687,6 +929,9 @@
 		};
 		5DE37A71650A7E3B9AD08726001DDD98 /* Headers */ = {
 >>>>>>> Greego-Dharika
+=======
+		362613128DFB35BB9777ADB884E76723 /* Headers */ = {
+>>>>>>> Greego-Vishal
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -694,6 +939,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		A84B83ED8E4C422451CA17B6A86CDE9A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
@@ -708,6 +954,13 @@
 				B91D45DE7E66F71C58DAE58C73578CE5 /* CTCheckbox-umbrella.h in Headers */,
 				B4A0B860CD9FBFB2B413228F682B4F8F /* CTCheckbox.h in Headers */,
 >>>>>>> Greego-Dharika
+=======
+		A84B83ED8E4C422451CA17B6A86CDE9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3C31609B56A12E012667FAE0345637 /* Pods-greegotaxiapp-umbrella.h in Headers */,
+>>>>>>> Greego-Vishal
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +968,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 				0028009557A349F19CCB8EDA915771F2 /* SVPinView-umbrella.h in Headers */,
 =======
@@ -728,6 +982,9 @@
 			files = (
 				EA44260E590EB3B1560245F2A121CDC1 /* SVPinView-umbrella.h in Headers */,
 >>>>>>> Greego-Dharika
+=======
+				0028009557A349F19CCB8EDA915771F2 /* SVPinView-umbrella.h in Headers */,
+>>>>>>> Greego-Vishal
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,6 +1004,7 @@
 			dependencies = (
 			);
 <<<<<<< HEAD
+<<<<<<< HEAD
 			name = YNDropDownMenu;
 			productName = YNDropDownMenu;
 			productReference = EC3357F7EF6FABB7DA7C83BFC5F6C5F7 /* YNDropDownMenu.framework */;
@@ -755,6 +1013,11 @@
 			productName = "Pods-greegotaxiappTests";
 			productReference = 648899A7B1D1593B6403EC366C46D9D0 /* Pods_greegotaxiappTests.framework */;
 >>>>>>> Greego-Dharika
+=======
+			name = YNDropDownMenu;
+			productName = YNDropDownMenu;
+			productReference = EC3357F7EF6FABB7DA7C83BFC5F6C5F7 /* YNDropDownMenu.framework */;
+>>>>>>> Greego-Vishal
 			productType = "com.apple.product-type.framework";
 		};
 		712F934655821AF1AAFB8DD4FAFE50FC /* SVPinView */ = {
@@ -762,10 +1025,14 @@
 			buildConfigurationList = AF6E926FCEBB4B1F910D5624EC253497 /* Build configuration list for PBXNativeTarget "SVPinView" */;
 			buildPhases = (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 				C5C36159D73BED96B1ABFBD0277D94AC /* Sources */,
 				95B568AD383070E8D0503F0CB6B31FFC /* Frameworks */,
 				34914BC4150B46D53CC1F45669114E61 /* Resources */,
 				AF7E926CFAFF787C00932B46B75C177A /* Headers */,
+<<<<<<< HEAD
 =======
 				B79510E9D5765972FEAB06621C104702 /* Sources */,
 				CC98D04DD1813FCE09370A29FBE127C8 /* Frameworks */,
@@ -789,6 +1056,8 @@
 				354F28F1E1609BB976C577436E7BF4F9 /* Resources */,
 				ED381332182F0636BB547070907D6306 /* Headers */,
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 			);
 			buildRules = (
 			);
@@ -796,6 +1065,7 @@
 			);
 			name = SVPinView;
 			productName = SVPinView;
+<<<<<<< HEAD
 <<<<<<< HEAD
 			productReference = AD9FEE72E8DE8DB218158EC7C196B101 /* SVPinView.framework */;
 			productType = "com.apple.product-type.framework";
@@ -819,17 +1089,33 @@
 				92864E56404D838B0182FE700CED122A /* Frameworks */,
 				45D2B2902C127EB95DC858AB2E4D12C8 /* Headers */,
 >>>>>>> Greego-Dharika
+=======
+			productReference = AD9FEE72E8DE8DB218158EC7C196B101 /* SVPinView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD0F954591B9219EEFACEDC0D3AF5AB6 /* Pods-greegotaxiapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0443238811BCD668E956DD3C5A059FFA /* Build configuration list for PBXNativeTarget "Pods-greegotaxiapp" */;
+			buildPhases = (
+				F3F01ACE176071169B334F2BA37441A7 /* Sources */,
+				14FD06B99EEB7F2C94882B1BB31CBD0E /* Frameworks */,
+				A84B83ED8E4C422451CA17B6A86CDE9A /* Headers */,
+>>>>>>> Greego-Vishal
 			);
 			buildRules = (
 			);
 			dependencies = (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 				0D3DB4790DCD621BD477DDE396E26A3B /* PBXTargetDependency */,
 				61EEA376B977EAFCB24557DC091D4808 /* PBXTargetDependency */,
 			);
 			name = "Pods-greegotaxiapp";
 			productName = "Pods-greegotaxiapp";
 			productReference = 7F0B906846B6C0D68E62C3FE89F0E075 /* Pods_greegotaxiapp.framework */;
+<<<<<<< HEAD
 =======
 				189B2DF5BE1275888FAF34062620B0E7 /* PBXTargetDependency */,
 				2EB2AFE27840CA385FCEC48708641BF2 /* PBXTargetDependency */,
@@ -855,6 +1141,8 @@
 			productName = CTCheckbox;
 			productReference = 0AEC7630D4B50AF7B70B7AE2829E25C3 /* CTCheckbox.framework */;
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -875,6 +1163,7 @@
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 <<<<<<< HEAD
+<<<<<<< HEAD
 			productRefGroup = 37E424D920AC4E63AF39CA3B30B6FFB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -893,12 +1182,24 @@
 				0D6D5CD49474B147AE92C35A853EE3EE /* Pods-greegotaxiappUITests */,
 				11E1D22F11D25C4B227708A228BE6F8A /* SVPinView */,
 >>>>>>> Greego-Dharika
+=======
+			productRefGroup = 37E424D920AC4E63AF39CA3B30B6FFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0F954591B9219EEFACEDC0D3AF5AB6 /* Pods-greegotaxiapp */,
+				712F934655821AF1AAFB8DD4FAFE50FC /* SVPinView */,
+				3672528AC87949A1B2B3E88957DAAC4A /* YNDropDownMenu */,
+>>>>>>> Greego-Vishal
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		34914BC4150B46D53CC1F45669114E61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -906,6 +1207,7 @@
 				712448085AA59E77AF864A1229B18342 /* IBInspectables.png in Resources */,
 				65C8B2F916CB4FFF58AF19A65CE7D3CC /* SVPinCell.xib in Resources */,
 				54A4281DDA51857C34FF9DC5C3C243BE /* SVPinView.xib in Resources */,
+<<<<<<< HEAD
 =======
 		354F28F1E1609BB976C577436E7BF4F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -915,12 +1217,15 @@
 				1F4D78058A070818F1232E339643B944 /* SVPinCell.xib in Resources */,
 				E6BC29C8AEA9364D3AC26053741A1542 /* SVPinView.xib in Resources */,
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		5ADBA0E8EA554EF9E97770CE3355CC3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -993,6 +1298,37 @@
 				39CC84CA3600F5C19825400FA0A4385A /* CTCheckbox-dummy.m in Sources */,
 				1DC212D1F4ACB6206D78F8B06313A558 /* CTCheckbox.m in Sources */,
 >>>>>>> Greego-Dharika
+=======
+		5ADBA0E8EA554EF9E97770CE3355CC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06AD1B7E4FC9C2E4EBEBA5840CE0783 /* YNDropDownButton.swift in Sources */,
+				BD772EFCDD3BA1C313677965AED88844 /* YNDropDownDelegate.swift in Sources */,
+				9F83F5DC0FE65B7CFCFB6907269F2114 /* YNDropDownDeprecated.swift in Sources */,
+				0DD18F45C45ED6F19EC47944CE8E5CF8 /* YNDropDownMenu-dummy.m in Sources */,
+				36347D65739133DA0E4E62178FACCE43 /* YNDropDownMenu.swift in Sources */,
+				7DC4095B9F0DB49C835D333F2F069A03 /* YNDropDownStatus.swift in Sources */,
+				AF21FC0C1B0F82E89F37E494719039D2 /* YNDropDownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C36159D73BED96B1ABFBD0277D94AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A41A83508A706D0662F23E2C0FC6E0C /* PinViewController.swift in Sources */,
+				BEA75D814CB365F4A199CAC83BBF8914 /* SVPinView-dummy.m in Sources */,
+				4AE85BF95EBAF40F3F755FE09FE824EA /* SVPinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F01ACE176071169B334F2BA37441A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52324307FBABF08060699C6FA424DBC0 /* Pods-greegotaxiapp-dummy.m in Sources */,
+>>>>>>> Greego-Vishal
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,11 +1336,15 @@
 
 /* Begin PBXTargetDependency section */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 		0D3DB4790DCD621BD477DDE396E26A3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVPinView;
 			target = 712F934655821AF1AAFB8DD4FAFE50FC /* SVPinView */;
 			targetProxy = E239C8485D8AB400C7D896582A1EF422 /* PBXContainerItemProxy */;
+<<<<<<< HEAD
 		};
 		61EEA376B977EAFCB24557DC091D4808 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1024,10 +1364,19 @@
 			target = 11E1D22F11D25C4B227708A228BE6F8A /* SVPinView */;
 			targetProxy = 2BE14330C00E9A627096709A69BC2B0E /* PBXContainerItemProxy */;
 >>>>>>> Greego-Dharika
+=======
+		};
+		61EEA376B977EAFCB24557DC091D4808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YNDropDownMenu;
+			target = 3672528AC87949A1B2B3E88957DAAC4A /* YNDropDownMenu */;
+			targetProxy = A2E72904C188C33C0054EEFD89BBDEB2 /* PBXContainerItemProxy */;
+>>>>>>> Greego-Vishal
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		117BE90F0BFA331630A7D0159B1A138A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1037,6 +1386,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A83844E3A6F44A264B2E9ADCFD534714 /* SVPinView.xcconfig */;
 >>>>>>> Greego-Dharika
+=======
+		117BE90F0BFA331630A7D0159B1A138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0384AC3609D290D474AA7A2C315572B /* Pods-greegotaxiapp.release.xcconfig */;
+>>>>>>> Greego-Vishal
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1049,6 +1403,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 				INFOPLIST_FILE = "Target Support Files/Pods-greegotaxiapp/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
@@ -1092,6 +1449,7 @@
 				PRODUCT_NAME = YNDropDownMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+<<<<<<< HEAD
 =======
 				GCC_PREFIX_HEADER = "Target Support Files/SVPinView/SVPinView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SVPinView/Info.plist";
@@ -1103,6 +1461,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -1176,6 +1536,7 @@
 			name = Debug;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		4159A0595F7B7862D5179C7FC378ECCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09D3278B4F296D2697A021A3443C46C2 /* Pods-greegotaxiapp.debug.xcconfig */;
@@ -1184,6 +1545,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D37C294C36B7216416C12115B89FF79 /* Pods-greegotaxiappUITests.release.xcconfig */;
 >>>>>>> Greego-Dharika
+=======
+		4159A0595F7B7862D5179C7FC378ECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D3278B4F296D2697A021A3443C46C2 /* Pods-greegotaxiapp.debug.xcconfig */;
+>>>>>>> Greego-Vishal
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1196,34 +1562,48 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 <<<<<<< HEAD
+<<<<<<< HEAD
 				INFOPLIST_FILE = "Target Support Files/Pods-greegotaxiapp/Info.plist";
 =======
 				INFOPLIST_FILE = "Target Support Files/Pods-greegotaxiappUITests/Info.plist";
 >>>>>>> Greego-Dharika
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-greegotaxiapp/Info.plist";
+>>>>>>> Greego-Vishal
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				MODULEMAP_FILE = "Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.modulemap";
 =======
 				MODULEMAP_FILE = "Target Support Files/Pods-greegotaxiappUITests/Pods-greegotaxiappUITests.modulemap";
 >>>>>>> Greego-Dharika
+=======
+				MODULEMAP_FILE = "Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.modulemap";
+>>>>>>> Greego-Vishal
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 				PRODUCT_NAME = Pods_greegotaxiapp;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+<<<<<<< HEAD
 =======
 				PRODUCT_NAME = Pods_greegotaxiappUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1231,6 +1611,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4BB446EA0E56BA7FBEB144EDC3A7E152 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1240,6 +1621,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BFC648B12027843279817C876CE2C47 /* Pods-greegotaxiapp.debug.xcconfig */;
 >>>>>>> Greego-Dharika
+=======
+		4BB446EA0E56BA7FBEB144EDC3A7E152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7405882AF5F8D5D70136856F7A91F0E /* YNDropDownMenu.xcconfig */;
+>>>>>>> Greego-Vishal
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1250,6 +1636,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< HEAD
 				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
@@ -1280,12 +1667,27 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 >>>>>>> Greego-Dharika
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_NAME = YNDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+>>>>>>> Greego-Vishal
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		4E08CFEFEE4DE6709E1A4294478CAB64 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1295,6 +1697,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CC5799AB6348CC6FEC302EC5C405C0E /* Pods-greegotaxiapp.release.xcconfig */;
 >>>>>>> Greego-Dharika
+=======
+		4E08CFEFEE4DE6709E1A4294478CAB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DA0F85F9702C307CEF6F51456574FB /* SVPinView.xcconfig */;
+>>>>>>> Greego-Vishal
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1385,6 +1792,7 @@
 			name = Release;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		D32DB4C3C796D9F23DB7E1A472DAD23F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46DA0F85F9702C307CEF6F51456574FB /* SVPinView.xcconfig */;
@@ -1426,6 +1834,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F216D0742FBBF14A7BA8B50872EE586 /* Pods-greegotaxiappUITests.debug.xcconfig */;
 >>>>>>> Greego-Dharika
+=======
+		D32DB4C3C796D9F23DB7E1A472DAD23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DA0F85F9702C307CEF6F51456574FB /* SVPinView.xcconfig */;
+>>>>>>> Greego-Vishal
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1437,10 +1850,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
 				GCC_PREFIX_HEADER = "Target Support Files/SVPinView/SVPinView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SVPinView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SVPinView/SVPinView.modulemap";
 				PRODUCT_NAME = SVPinView;
@@ -1457,6 +1874,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_greegotaxiappUITests;
 >>>>>>> Greego-Dharika
+=======
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVPinView/SVPinView.modulemap";
+				PRODUCT_NAME = SVPinView;
+>>>>>>> Greego-Vishal
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1465,6 +1887,7 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* End XCBuildConfiguration section */
 
@@ -1609,6 +2032,16 @@
 				CBEC810954B92B5C5423FCC6E6208365 /* Debug */,
 				A419D415612F2483EA3AB0B400B73909 /* Release */,
 >>>>>>> Greego-Dharika
+=======
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0443238811BCD668E956DD3C5A059FFA /* Build configuration list for PBXNativeTarget "Pods-greegotaxiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4159A0595F7B7862D5179C7FC378ECCF /* Debug */,
+				117BE90F0BFA331630A7D0159B1A138A /* Release */,
+>>>>>>> Greego-Vishal
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1616,6 +2049,7 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 				323A24856F1A4871A780301AF5C02A2A /* Debug */,
 				CA33F186435244FD0FD5B7325332656C /* Release */,
@@ -1641,6 +2075,10 @@
 				6581390C0514B1D52C0D07A792CBC8A6 /* Debug */,
 				888D41E33651D0CE86DDFE7E1F9DD86B /* Release */,
 >>>>>>> Greego-Dharika
+=======
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+>>>>>>> Greego-Vishal
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

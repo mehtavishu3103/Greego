@@ -33,6 +33,7 @@
 		734F550C2077408200512886 /* HADropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550B2077408200512886 /* HADropDown.swift */; };
 		734F550E2077502900512886 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550D2077502900512886 /* ImageViewController.swift */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		7351C8B6207C90A2006A2BED /* PromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7351C8B5207C90A2006A2BED /* PromocodeViewController.swift */; };
 		73586165207C9DC300996DC8 /* AddpaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73586164207C9DC300996DC8 /* AddpaymentViewController.swift */; };
@@ -46,6 +47,8 @@
 		73F211EF207B9D61006526A1 /* Paymentscreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F211EE207B9D61006526A1 /* Paymentscreen2ViewController.swift */; };
 		83A6BF3054F46F7E7767CAE6 /* Pods_greegotaxiappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */; };
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 		935F253A1361BD545BFA5B55 /* Pods_greegotaxiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +106,7 @@
 		734F550B2077408200512886 /* HADropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADropDown.swift; sourceTree = "<group>"; };
 		734F550D2077502900512886 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		7351C8B5207C90A2006A2BED /* PromocodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocodeViewController.swift; sourceTree = "<group>"; };
 		73586164207C9DC300996DC8 /* AddpaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddpaymentViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		73F211EE207B9D61006526A1 /* Paymentscreen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paymentscreen2ViewController.swift; sourceTree = "<group>"; };
 		8748A7BFADDC915F22DA3B95 /* Pods-greegotaxiappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappUITests/Pods-greegotaxiappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 		B243F7AB790791DE39AE55F7 /* Pods-greegotaxiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.release.xcconfig"; sourceTree = "<group>"; };
 		EF5128238C4E6F99935868B4 /* Pods-greegotaxiapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -492,18 +498,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp-frameworks.sh",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				"${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework",
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 				"${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework",
 				"${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTCheckbox.framework",
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPinView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNDropDownMenu.framework",
 			);

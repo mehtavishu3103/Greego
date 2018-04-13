@@ -5,6 +5,9 @@
    <Breakpoints>
       <BreakpointProxy
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
          BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
@@ -55,14 +58,20 @@
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
+<<<<<<< HEAD
 =======
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Greego-Vishal
             filePath = "greegotaxiapp/MAP/ChooseDestinatioVC.swift"
             timestampString = "545265669.852833"
             startingColumnNumber = "9223372036854775807"
@@ -70,6 +79,7 @@
             startingLineNumber = "84"
             endingLineNumber = "84"
             landmarkName = "textDidChange(_:)"
+<<<<<<< HEAD
 =======
             filePath = "greegotaxiapp/Other/MainmapViewController.swift"
             timestampString = "544739238.5759259"
@@ -79,6 +89,8 @@
             endingLineNumber = "54"
             landmarkName = "viewDidLoad()"
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

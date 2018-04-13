@@ -9,6 +9,7 @@ target 'greegotaxiapp' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  pod 'HADropDown'
   pod 'GooglePlaces', '~> 2.1'
   pod 'YNDropDownMenu'
@@ -27,5 +28,10 @@ target 'greegotaxiapp' do
     # Pods for testing
   end
 >>>>>>> Greego-Dharika
+=======
+#  pod 'HADropDown'
+  pod 'GooglePlaces', '~> 2.1'
+  pod 'YNDropDownMenu'
+>>>>>>> Greego-Vishal
 
 end

@@ -211,10 +211,14 @@ class HADropDown: UIView {
             var rootView = self.superview
           // adding tableview to root view( we can say first view in hierarchy)
 <<<<<<< HEAD
+<<<<<<< HEAD
            while !(rootView is UIScrollView) {
 =======
           while !(rootView is UIScrollView) {
 >>>>>>> Greego-Dharika
+=======
+           while !(rootView is UIScrollView) {
+>>>>>>> Greego-Vishal
             rootView = rootView?.superview
           }
        

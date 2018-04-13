@@ -1,8 +1,11 @@
 PODS:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - CTCheckbox (0.0.5)
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
   - GoogleMaps (2.6.0):
     - GoogleMaps/Maps (= 2.6.0)
   - GoogleMaps/Base (2.6.0)
@@ -15,9 +18,12 @@ PODS:
 
 DEPENDENCIES:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - CTCheckbox
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
   - GoogleMaps
   - GooglePlaces
   - GooglePlaces (~> 2.1)
@@ -26,18 +32,25 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   CTCheckbox: fec0e51c635ad555effd230a1fa186105010a382
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   SVPinView: c44afcba589fd2d316d4a4d28cdd527699506a80
   YNDropDownMenu: 967ebe0c633ce8f40e8667574525aa230ba24560
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 PODFILE CHECKSUM: 3d02c4dc6ad578451f4c823bd43039793e519c5e
 =======
 PODFILE CHECKSUM: 691a807e097f9bfa7b47463f27fc971b46fa0837
 >>>>>>> Greego-Dharika
+=======
+PODFILE CHECKSUM: 3d02c4dc6ad578451f4c823bd43039793e519c5e
+>>>>>>> Greego-Vishal
 
 COCOAPODS: 1.4.0

@@ -8,9 +8,12 @@
 
 import UIKit
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //import DropDown
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 
 class Vehicle_informationViewController: UIViewController {
     
@@ -38,6 +41,7 @@ class Vehicle_informationViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         
     }
+<<<<<<< HEAD
     override func viewDidLayoutSubviews() {
 //        self.dropDown.table.frame = CGRect(x: self.dropDown.frame.origin.x, y: (self.dropDown.frame.origin.y) + (self.dropDown.frame.height)+5, width: (self.dropDown.frame.width), height: 0)
     }
@@ -50,6 +54,14 @@ class Vehicle_informationViewController: UIViewController {
 
 
 >>>>>>> Greego-Dharika
+=======
+    override func viewWillLayoutSubviews() {
+        
+    }
+    override func viewDidLayoutSubviews() {
+//        self.dropDown.table.frame = CGRect(x: self.dropDown.frame.origin.x, y: (self.dropDown.frame.origin.y) + (self.dropDown.frame.height)+5, width: (self.dropDown.frame.width), height: 0)
+    }
+>>>>>>> Greego-Vishal
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()

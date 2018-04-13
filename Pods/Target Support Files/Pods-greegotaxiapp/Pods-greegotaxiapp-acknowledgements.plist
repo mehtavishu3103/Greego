@@ -15,6 +15,7 @@
 		<dict>
 			<key>FooterText</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			<string>Copyright (c) 2013 Ryoichi Izumita
 
@@ -46,6 +47,8 @@ THE SOFTWARE.
 		<dict>
 			<key>FooterText</key>
 >>>>>>> Greego-Dharika
+=======
+>>>>>>> Greego-Vishal
 			<string>Copyright 2017 Google</string>
 			<key>License</key>
 			<string>Copyright</string>
