@@ -7,6 +7,10 @@
 //
 
 import UIKit
+<<<<<<< HEAD
+=======
+//import DropDown
+>>>>>>> Greego-Dharika
 
 class Vehicle_informationViewController: UIViewController {
     
@@ -26,13 +30,26 @@ class Vehicle_informationViewController: UIViewController {
         dropdown2.items = ["Cat", "Mouse", "Horse", "Elephant", "Dog", "Zebra"]
         dropdown3.items = ["Cat", "Mouse", "Horse", "Elephant", "Dog", "Zebra"]
         dropdown4.items = ["Cat", "Mouse", "Horse", "Elephant", "Dog", "Zebra"]
+        
+       
+        
     }
+<<<<<<< HEAD
     override func viewWillLayoutSubviews() {
         
     }
     override func viewDidLayoutSubviews() {
 //        self.dropDown.table.frame = CGRect(x: self.dropDown.frame.origin.x, y: (self.dropDown.frame.origin.y) + (self.dropDown.frame.height)+5, width: (self.dropDown.frame.width), height: 0)
     }
+=======
+    
+    
+    override func viewDidLayoutSubviews() {
+        
+    }
+
+
+>>>>>>> Greego-Dharika
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()

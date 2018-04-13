@@ -183,6 +183,8 @@ class HADropDown: UIView {
        }
       
        let newFrame: CGRect = self.superview!.convert(self.frame, to: rootView)
+        
+        
       self.tableFrame = newFrame
       self.table.frame = CGRect(x: newFrame.origin.x, y: (newFrame.origin.y) + (newFrame.height)+5, width: (newFrame.width), height: 0)
         
@@ -208,7 +210,11 @@ class HADropDown: UIView {
             self.table.layer.cornerRadius = 4
             var rootView = self.superview
           // adding tableview to root view( we can say first view in hierarchy)
+<<<<<<< HEAD
            while !(rootView is UIScrollView) {
+=======
+          while !(rootView is UIScrollView) {
+>>>>>>> Greego-Dharika
             rootView = rootView?.superview
           }
        

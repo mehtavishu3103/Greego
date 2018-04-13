@@ -17,7 +17,12 @@ class addMobileVC: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+        txtMobileNum.leftViewMode = UITextFieldViewMode.always
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
+        let image = UIImage(named: "usaflag")
+        imageView.image = image
+        txtMobileNum.leftView = imageView
+        txtMobileNum.textInputView.frame.origin.x += 10
         // Do any additional setup after loading the view.
     }
     
@@ -36,34 +41,8 @@ class addMobileVC: UIViewController
     
     @IBAction func btnNextClicked(_ sender: Any)
     {
-        
-        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "otpVC") as! otpVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    
-// MARK: - USer Define Functions
-    
-    func webServiceCall()
-    {
-        if AppDelegate.hasConnectivity() == true
-        {
-            
-            let strURL = ""
-            let urlDictionary = ""
-            let postDataDictionary = Dictionary<String, Any>()
-            
-            WebServiceClass.sharedInstance.callAPIWithURLWithHandler(requestType: strURL, parameters: postDataDictionary, completionHandler: {(success,responseData,urlResponse) in
-                
-            })
-            
-        }
-        else
-        {
-            NSLog("No Internet Connection")
-        }
-        
-    }
-        
 }

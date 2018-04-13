@@ -134,10 +134,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+<<<<<<< HEAD
+=======
+  install_framework "${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework"
+>>>>>>> Greego-Dharika
   install_framework "${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+<<<<<<< HEAD
+=======
+  install_framework "${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework"
+>>>>>>> Greego-Dharika
   install_framework "${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework"
 fi

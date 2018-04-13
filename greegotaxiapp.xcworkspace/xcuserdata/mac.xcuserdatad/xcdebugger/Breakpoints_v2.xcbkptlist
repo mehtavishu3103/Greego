@@ -4,6 +4,7 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
+<<<<<<< HEAD
          BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
@@ -54,11 +55,14 @@
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
+=======
+>>>>>>> Greego-Dharika
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "greegotaxiapp/MAP/ChooseDestinatioVC.swift"
             timestampString = "545265669.852833"
             startingColumnNumber = "9223372036854775807"
@@ -66,6 +70,15 @@
             startingLineNumber = "84"
             endingLineNumber = "84"
             landmarkName = "textDidChange(_:)"
+=======
+            filePath = "greegotaxiapp/Other/MainmapViewController.swift"
+            timestampString = "544739238.5759259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
+>>>>>>> Greego-Dharika
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
