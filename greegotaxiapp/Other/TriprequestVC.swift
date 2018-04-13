@@ -9,6 +9,7 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import Alamofire
 class TriprequestVC: UIViewController {
 
     @IBOutlet weak var requestView: UIView!
@@ -37,23 +38,100 @@ class TriprequestVC: UIViewController {
             print("The style definition could not be loaded: \(error)")
         }
     
-        let camera = GMSCameraPosition.camera(withLatitude: 32.806671, longitude:  -86.791130, zoom: 18);
+        let center = CLLocationCoordinate2D(latitude: 22.9962, longitude: 72.5996)
+        
+        let center1 = CLLocationCoordinate2D(latitude:23.0063, longitude: 72.6026)
+        
+        let camera = GMSCameraPosition.camera(withLatitude:23.0063, longitude: 72.6026, zoom: 15);
         self.userMapView.camera = camera
         
+        getPolylineRoute(from: center, to: center1)
         
-        let state_marker1 = GMSMarker()
-        state_marker1.position = CLLocationCoordinate2D(latitude: 32.806671, longitude: -86.791130)
-        state_marker1.title = "Alabama"
-        state_marker1.snippet = "Hey, this is Alabama"
-        state_marker1.map = self.userMapView
-    
+        let marker = GMSMarker()
+        marker.position = center
+        marker.title = "Maninager"
+        marker.appearAnimation = .pop
+        marker.map = self.userMapView
+        marker.icon = UIImage(named:"marker")
+
+        let marker1 = GMSMarker()
+        marker1.position = center1
+        marker1.title = "Kankaria"
+        marker1.appearAnimation = .pop
+        marker1.map = self.userMapView
+        marker1.icon = UIImage(named:"marker")
+
+        
+        
         
         self.view.bringSubview(toFront: requestView)
 
         self.view.sendSubview(toBack: userMapView)
         // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    //MARK: - USER DEFINE FUNCTIONS
 
+
+        func getPolylineRoute(from source: CLLocationCoordinate2D, to destination: CLLocationCoordinate2D){
+       
+            
+            Alamofire.request("http://maps.googleapis.com/maps/api/directions/json?origin=\(source.latitude),\(source.longitude)&destination=\(destination.latitude),\(destination.longitude)&sensor=false&mode=driving", method: .post, parameters: [:], encoding: JSONEncoding.default, headers: nil).responseJSON { (response:DataResponse<Any>) in
+                
+                switch(response.result) {
+                case .success(_):
+                    if let data = response.result.value{
+                        print(response.result.value!)
+                        
+                        let dic =  response.result.value! as! NSDictionary
+                        let routes = dic["routes"] as? [Any]
+                        let overview_polyline = routes?[0] as?[String:Any]
+                        print(overview_polyline)
+                        let polyString = overview_polyline?["overview_polyline"] as? NSDictionary
+                        let final = polyString?.value(forKey:"points") as! String
+                        //Call this method to draw path on map
+                        self.showPath(polyStr: final)
+                        
+                    }
+                    break
+                    
+                case .failure(_):
+                    print(response.result.error)
+                    break
+                    
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+
+        }
+ 
+    func showPath(polyStr :String){
+        let path = GMSPath(fromEncodedPath: polyStr)
+        let polyline = GMSPolyline(path: path)
+        polyline.strokeWidth = 6.0
+        polyline.strokeColor = UIColor(red:0.13, green:0.13, blue:0.13, alpha:1.0)
+        polyline.map = self.userMapView // Your map view
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -36,6 +36,7 @@
 		734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */; };
 		734F550C2077408200512886 /* HADropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550B2077408200512886 /* HADropDown.swift */; };
 		734F550E2077502900512886 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550D2077502900512886 /* ImageViewController.swift */; };
+		73DF627A207E383F00CB8A34 /* TermandconditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF6279207E383E00CB8A34 /* TermandconditionVC.swift */; };
 		73FE07E3207B5D5900D0DE8C /* TriprequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */; };
 		73FE07E5207B8B9500D0DE8C /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE07E4207B8B9400D0DE8C /* EmailVC.swift */; };
 		83A6BF3054F46F7E7767CAE6 /* Pods_greegotaxiappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */; };
@@ -103,6 +104,7 @@
 		734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_informationViewController.swift; sourceTree = "<group>"; };
 		734F550B2077408200512886 /* HADropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADropDown.swift; sourceTree = "<group>"; };
 		734F550D2077502900512886 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		73DF6279207E383E00CB8A34 /* TermandconditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermandconditionVC.swift; sourceTree = "<group>"; };
 		73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriprequestVC.swift; sourceTree = "<group>"; };
 		73FE07E4207B8B9400D0DE8C /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
 		8748A7BFADDC915F22DA3B95 /* Pods-greegotaxiappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappUITests/Pods-greegotaxiappUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				041CF17720777D9B00464B5D /* addMobileVC.swift */,
 				73FE07E4207B8B9400D0DE8C /* EmailVC.swift */,
 				041CF17820777D9B00464B5D /* mobilenumberViewController.swift */,
+				73DF6279207E383E00CB8A34 /* TermandconditionVC.swift */,
 				041CF17920777D9B00464B5D /* nameViewController.swift */,
 				041CF17A20777D9B00464B5D /* otpVC.swift */,
 				734B9B0A2076276500090B8A /* EmailverificationViewController.swift */,
@@ -580,12 +583,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework",
 				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
 				"${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTCheckbox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPinView.framework",
 			);
@@ -641,6 +646,7 @@
 				7313A3912078AF4000A6AA89 /* Reachability.m in Sources */,
 				734ABBA5207B20FF006D10CE /* FreeridesVC.swift in Sources */,
 				696A6191207212990015C77E /* AppDelegate.swift in Sources */,
+				73DF627A207E383F00CB8A34 /* TermandconditionVC.swift in Sources */,
 				73FE07E5207B8B9500D0DE8C /* EmailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

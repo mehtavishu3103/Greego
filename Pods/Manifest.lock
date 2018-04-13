@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.7.1)
+  - CTCheckbox (0.0.5)
   - GoogleMaps (2.6.0):
     - GoogleMaps/Maps (= 2.6.0)
   - GoogleMaps/Base (2.6.0)
@@ -12,6 +13,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - CTCheckbox
   - GoogleMaps
   - GooglePlaces
   - HCSStarRatingView (~> 1.5)
@@ -19,11 +21,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  CTCheckbox: fec0e51c635ad555effd230a1fa186105010a382
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
   SVPinView: c44afcba589fd2d316d4a4d28cdd527699506a80
 
-PODFILE CHECKSUM: e4a324d3df8f63bf92df5fb5e1da8fe86b1ea9a3
+PODFILE CHECKSUM: ad2e5cc675de440ad610327efca534735062d550
 
 COCOAPODS: 1.4.0

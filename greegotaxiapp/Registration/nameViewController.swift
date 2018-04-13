@@ -81,7 +81,7 @@ class nameViewController: UIViewController
         user.synchronize()
         
         
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SWRevealViewController") as! SWRevealViewController
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TermandconditionVC") as! TermandconditionVC
         self.navigationController?.pushViewController(vc, animated: true)
         
         }

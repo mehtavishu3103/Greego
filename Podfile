@@ -11,6 +11,7 @@ pod 'SVPinView', '~> 1.0.1'
   pod 'GooglePlaces'
 pod 'HCSStarRatingView', '~> 1.5'
     pod 'Alamofire', '~> 4.7'
+    pod 'CTCheckbox'
 
 
   target 'greegotaxiappTests' do

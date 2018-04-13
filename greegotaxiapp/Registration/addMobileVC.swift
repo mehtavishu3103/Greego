@@ -39,7 +39,7 @@ class addMobileVC: UIViewController
     {
         
        
-        if((txtMobileNum.text?.characters.count)! < 10)
+        if(txtMobileNum.text == "")
       {
         let alert = UIAlertController(title: "Alert", message: "Please enter correct mobile number.", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
@@ -75,13 +75,32 @@ func checkmobile()
                 if let data = response.result.value{
                     print(response.result.value!)
                     
+                    
+                    
+                    
+                    let dic: NSDictionary =  response.result.value! as! NSDictionary
+                    
+                   if(dic.value(forKey: "error_code") as! NSNumber  == 0)
+                   {
+                    var datadic :NSDictionary = dic.value(forKey: "data") as! NSDictionary
+                    
                     let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
                     
                     let nextViewController = storyBoard.instantiateViewController(withIdentifier: "otpVC") as! otpVC
                     
+                    let otpstring = datadic.value(forKey: "otp") as! NSNumber
+                    let devicetoken =  datadic.value(forKey: "token") as! String
                     nextViewController.strmobileno = self.txtMobileNum.text!
+                    nextViewController.strotp = otpstring.stringValue
                     self.navigationController?.pushViewController(nextViewController, animated: true)
-
+                    
+                    let user = UserDefaults.standard
+                    
+                    user.set(devicetoken, forKey: "devicetoken")
+                    user.synchronize()
+                    
+                    
+                    }
                 }
                 break
                 

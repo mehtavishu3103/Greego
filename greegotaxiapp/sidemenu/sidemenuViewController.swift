@@ -11,14 +11,22 @@ import UIKit
 class sidemenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var imguser: UIImageView!
+    @IBOutlet weak var lblusername: UILabel!
     
     var reuseid = NSMutableArray()
     
 //MARK: - Delegate Methods
     override func viewDidLoad()
     {
+        
+        
+        let  firstname = UserDefaults.standard.value(forKey: "fname") as! String
+        let  lastname = UserDefaults.standard.value(forKey: "lname") as! String
+
         super.viewDidLoad()
 
+        
+        lblusername.text = firstname + lastname
         reuseid = ["cell","cell1","cell2","cell3","cell4"]
         imguser.layer.borderWidth=1.0
         imguser.layer.masksToBounds = false
