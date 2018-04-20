@@ -50,5 +50,9 @@ class MaintableViewController: UIViewController,UITableViewDelegate,UITableViewD
     {
         return 1
     }
+    @IBAction func btnBackClicked(_ sender: Any)
+    {
+        self.navigationController?.popViewController(animated: true)
+    }
     
 }

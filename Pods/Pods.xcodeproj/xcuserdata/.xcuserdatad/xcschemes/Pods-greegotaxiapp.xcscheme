@@ -14,11 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-<<<<<<< HEAD
-               BlueprintIdentifier = '3C1C42AA7E9BE05372438745A258A2F4'
-=======
-               BlueprintIdentifier = '3AFA397AFF6C3C2F41330F759A7B3D55'
->>>>>>> Greego-Jay
+               BlueprintIdentifier = '4B81D9ECF32B6B6ED69C2BDF89AEA8F3'
                BlueprintName = 'Pods-greegotaxiapp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-greegotaxiapp.framework'>

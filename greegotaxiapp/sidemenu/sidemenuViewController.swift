@@ -9,39 +9,28 @@
 import UIKit
 
 class sidemenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+    
     @IBOutlet weak var imguser: UIImageView!
-    @IBOutlet weak var lblusername: UILabel!
     
     @IBOutlet weak var heightview: NSLayoutConstraint!
     
     var reuseid = NSMutableArray()
     
-//MARK: - Delegate Methods
+    //MARK: - Delegate Methods
     override func viewDidLoad()
     {
-        
-        
-        let  firstname = UserDefaults.standard.value(forKey: "fname") as! String
-        let  lastname = UserDefaults.standard.value(forKey: "lname") as! String
-
         super.viewDidLoad()
-
-<<<<<<< HEAD
+        
         if(UIDevice.current.screenType == .iPhoneX)
         {
             
             
-          heightview.constant = 250
+            heightview.constant = 250
             
         }
         
         
         
-=======
-        
-        lblusername.text = firstname + lastname
->>>>>>> Greego-Jay
         reuseid = ["cell","cell1","cell2","cell3","cell4"]
         imguser.layer.borderWidth=1.0
         imguser.layer.masksToBounds = false
@@ -54,9 +43,9 @@ class sidemenuViewController: UIViewController,UITableViewDelegate,UITableViewDa
     {
         super.didReceiveMemoryWarning()
     }
-  
     
- //MARK: - TableView Delegate Methods
+    
+    //MARK: - TableView Delegate Methods
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -70,11 +59,7 @@ class sidemenuViewController: UIViewController,UITableViewDelegate,UITableViewDa
         let dvc:UITableViewCell = tableView.dequeueReusableCell(withIdentifier:str, for: indexPath)
         var nameary = ["Payment","Your Trips","Free Rides","Help","Settings"]
         dvc.textLabel?.text = nameary[indexPath.row]
-<<<<<<< HEAD
-       
-=======
-    
->>>>>>> Greego-Jay
+        
         
         return dvc
     }

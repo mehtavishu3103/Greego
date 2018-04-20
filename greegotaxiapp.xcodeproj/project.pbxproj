@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A0B4B2078977500CBA6D2 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B4A2078977500CBA6D2 /* SharedClass.swift */; };
+		040A0B4D2078997B00CBA6D2 /* WebServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B4C2078997B00CBA6D2 /* WebServiceClass.swift */; };
+		040A0B502078A30300CBA6D2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B4F2078A30300CBA6D2 /* Reachability.m */; };
+		040A0B552078A97F00CBA6D2 /* ChooseDestinatioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A0B542078A97F00CBA6D2 /* ChooseDestinatioVC.swift */; };
 		041CF17F20777D9C00464B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CF17520777D9B00464B5D /* Main.storyboard */; };
-		041CF18020777D9C00464B5D /* addMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF17720777D9B00464B5D /* addMobileVC.swift */; };
-		041CF18120777D9C00464B5D /* mobilenumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF17820777D9B00464B5D /* mobilenumberViewController.swift */; };
-		041CF18220777D9C00464B5D /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF17920777D9B00464B5D /* nameViewController.swift */; };
-		041CF18320777D9C00464B5D /* otpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF17A20777D9B00464B5D /* otpVC.swift */; };
 		041CF18920777DCC00464B5D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041CF18820777DCC00464B5D /* Info.plist */; };
 		041CF18B20777EB700464B5D /* MainmapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF18A20777EB700464B5D /* MainmapViewController.swift */; };
 		04352C6A20800F1A00A7E6D9 /* setLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04352C6920800F1A00A7E6D9 /* setLocationCell.swift */; };
 		045F556A2078028100E75EB6 /* GoogleMap.json in Resources */ = {isa = PBXBuildFile; fileRef = 045F55692078028100E75EB6 /* GoogleMap.json */; };
 		045F556C2078092F00E75EB6 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 045F556B2078092F00E75EB6 /* style.json */; };
+		3B2345CD20853B1C006B1796 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2345CC20853B1C006B1796 /* customTextField.swift */; };
+		3B2F5924208763C7000DD298 /* AddpaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F591F208763C6000DD298 /* AddpaymentViewController.swift */; };
+		3B2F5925208763C7000DD298 /* AfteraddpromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5920208763C6000DD298 /* AfteraddpromocodeViewController.swift */; };
+		3B2F5926208763C7000DD298 /* Paymentscreen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5921208763C6000DD298 /* Paymentscreen1ViewController.swift */; };
+		3B2F5927208763C7000DD298 /* Paymentscreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5922208763C6000DD298 /* Paymentscreen2ViewController.swift */; };
+		3B2F5928208763C7000DD298 /* PromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5923208763C6000DD298 /* PromocodeViewController.swift */; };
+		3B34F8D42082916400051F02 /* addMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8CD2082916400051F02 /* addMobileVC.swift */; };
+		3B34F8D52082916400051F02 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8CE2082916400051F02 /* EmailVC.swift */; };
+		3B34F8D62082916400051F02 /* EmailverificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8CF2082916400051F02 /* EmailverificationViewController.swift */; };
+		3B34F8D72082916400051F02 /* mobilenumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D02082916400051F02 /* mobilenumberViewController.swift */; };
+		3B34F8D82082916400051F02 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D12082916400051F02 /* nameViewController.swift */; };
+		3B34F8D92082916400051F02 /* otpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D22082916400051F02 /* otpVC.swift */; };
+		3B34F8DA2082916400051F02 /* TermandconditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D32082916400051F02 /* TermandconditionVC.swift */; };
+		3BBA890920840C2D0056BFCE /* rideMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA890820840C2D0056BFCE /* rideMapVC.swift */; };
+		3BDEF7B52085F59700447600 /* FreetripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDEF7B42085F59700447600 /* FreetripsViewController.swift */; };
+		3BDEF7B72085F6CB00447600 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDEF7B62085F6CB00447600 /* HelpViewController.swift */; };
 		696A6191207212990015C77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696A6190207212990015C77E /* AppDelegate.swift */; };
 		696A6198207212990015C77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696A6197207212990015C77E /* Assets.xcassets */; };
 		696A619B207212990015C77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696A6199207212990015C77E /* LaunchScreen.storyboard */; };
@@ -27,39 +43,10 @@
 		73051D972074DAB900C42207 /* Trip_detail_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73051D962074DAB900C42207 /* Trip_detail_ViewController.swift */; };
 		730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AF66720735A3E00AD8993 /* SWRevealViewController.m */; };
 		730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF66920735B9600AD8993 /* sidemenuViewController.swift */; };
-		7313A38E20788CE400A6AA89 /* ChooseDestinatioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313A38D20788CE300A6AA89 /* ChooseDestinatioVC.swift */; };
-		7313A3912078AF4000A6AA89 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313A3902078AF4000A6AA89 /* Reachability.m */; };
-		7313A3932078AF9200A6AA89 /* WebServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313A3922078AF9200A6AA89 /* WebServiceClass.swift */; };
-		734ABBA5207B20FF006D10CE /* FreeridesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ABBA4207B20FF006D10CE /* FreeridesVC.swift */; };
-		734ABBA7207B2E79006D10CE /* TripcomplitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ABBA6207B2E79006D10CE /* TripcomplitionVC.swift */; };
 		734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */; };
-		734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0A2076276500090B8A /* EmailverificationViewController.swift */; };
 		734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */; };
 		734F550C2077408200512886 /* HADropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550B2077408200512886 /* HADropDown.swift */; };
 		734F550E2077502900512886 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550D2077502900512886 /* ImageViewController.swift */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-		7351C8B6207C90A2006A2BED /* PromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7351C8B5207C90A2006A2BED /* PromocodeViewController.swift */; };
-		73586165207C9DC300996DC8 /* AddpaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73586164207C9DC300996DC8 /* AddpaymentViewController.swift */; };
-		73952EF320789CAF00C859B7 /* AgreementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73952EF220789CAF00C859B7 /* AgreementVC.swift */; };
-		73952EF52078CAC100C859B7 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73952EF42078CAC000C859B7 /* customTextField.swift */; };
-		73D86EE3207C876B007227F6 /* AfteraddpromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D86EE2207C876B007227F6 /* AfteraddpromocodeViewController.swift */; };
-		73F211E6207B477D006526A1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F211E5207B477D006526A1 /* SettingViewController.swift */; };
-		73F211E8207B4C12006526A1 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F211E7207B4C12006526A1 /* HelpViewController.swift */; };
-		73F211EA207B710B006526A1 /* FreetripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F211E9207B710B006526A1 /* FreetripsViewController.swift */; };
-		73F211EC207B9876006526A1 /* Paymentscreen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F211EB207B9876006526A1 /* Paymentscreen1ViewController.swift */; };
-		73F211EF207B9D61006526A1 /* Paymentscreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F211EE207B9D61006526A1 /* Paymentscreen2ViewController.swift */; };
-=======
-		73DF627A207E383F00CB8A34 /* TermandconditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF6279207E383E00CB8A34 /* TermandconditionVC.swift */; };
-		73FE07E3207B5D5900D0DE8C /* TriprequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */; };
-		73FE07E5207B8B9500D0DE8C /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE07E4207B8B9400D0DE8C /* EmailVC.swift */; };
->>>>>>> Greego-Jay
-		83A6BF3054F46F7E7767CAE6 /* Pods_greegotaxiappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */; };
->>>>>>> Greego-Dharika
-=======
->>>>>>> Greego-Vishal
 		935F253A1361BD545BFA5B55 /* Pods_greegotaxiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,11 +68,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A0B4A2078977500CBA6D2 /* SharedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		040A0B4C2078997B00CBA6D2 /* WebServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceClass.swift; sourceTree = "<group>"; };
+		040A0B4E2078A30300CBA6D2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		040A0B4F2078A30300CBA6D2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		040A0B542078A97F00CBA6D2 /* ChooseDestinatioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDestinatioVC.swift; sourceTree = "<group>"; };
 		041CF17520777D9B00464B5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		041CF17720777D9B00464B5D /* addMobileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMobileVC.swift; sourceTree = "<group>"; };
-		041CF17820777D9B00464B5D /* mobilenumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mobilenumberViewController.swift; sourceTree = "<group>"; };
-		041CF17920777D9B00464B5D /* nameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
-		041CF17A20777D9B00464B5D /* otpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpVC.swift; sourceTree = "<group>"; };
 		041CF18820777DCC00464B5D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041CF18A20777EB700464B5D /* MainmapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainmapViewController.swift; sourceTree = "<group>"; };
 		04352C6920800F1A00A7E6D9 /* setLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setLocationCell.swift; sourceTree = "<group>"; };
@@ -93,6 +81,22 @@
 		045F556B2078092F00E75EB6 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greegotaxiappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3A397F82F7B2A3D65BA816 /* Pods_greegotaxiappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greegotaxiappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2345CC20853B1C006B1796 /* customTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
+		3B2F591F208763C6000DD298 /* AddpaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddpaymentViewController.swift; sourceTree = "<group>"; };
+		3B2F5920208763C6000DD298 /* AfteraddpromocodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfteraddpromocodeViewController.swift; sourceTree = "<group>"; };
+		3B2F5921208763C6000DD298 /* Paymentscreen1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paymentscreen1ViewController.swift; sourceTree = "<group>"; };
+		3B2F5922208763C6000DD298 /* Paymentscreen2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paymentscreen2ViewController.swift; sourceTree = "<group>"; };
+		3B2F5923208763C6000DD298 /* PromocodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromocodeViewController.swift; sourceTree = "<group>"; };
+		3B34F8CD2082916400051F02 /* addMobileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMobileVC.swift; sourceTree = "<group>"; };
+		3B34F8CE2082916400051F02 /* EmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		3B34F8CF2082916400051F02 /* EmailverificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailverificationViewController.swift; sourceTree = "<group>"; };
+		3B34F8D02082916400051F02 /* mobilenumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mobilenumberViewController.swift; sourceTree = "<group>"; };
+		3B34F8D12082916400051F02 /* nameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
+		3B34F8D22082916400051F02 /* otpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpVC.swift; sourceTree = "<group>"; };
+		3B34F8D32082916400051F02 /* TermandconditionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermandconditionVC.swift; sourceTree = "<group>"; };
+		3BBA890820840C2D0056BFCE /* rideMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rideMapVC.swift; sourceTree = "<group>"; };
+		3BDEF7B42085F59700447600 /* FreetripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreetripsViewController.swift; sourceTree = "<group>"; };
+		3BDEF7B62085F6CB00447600 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greegotaxiapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		696A618D207212990015C77E /* greegotaxiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greegotaxiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		696A6190207212990015C77E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,40 +115,10 @@
 		730AF66620735A3D00AD8993 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		730AF66720735A3E00AD8993 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		730AF66920735B9600AD8993 /* sidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuViewController.swift; sourceTree = "<group>"; };
-		7313A38D20788CE300A6AA89 /* ChooseDestinatioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDestinatioVC.swift; sourceTree = "<group>"; };
-		7313A38F2078AF4000A6AA89 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		7313A3902078AF4000A6AA89 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		7313A3922078AF9200A6AA89 /* WebServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceClass.swift; sourceTree = "<group>"; };
-		734ABBA4207B20FF006D10CE /* FreeridesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeridesVC.swift; sourceTree = "<group>"; };
-		734ABBA6207B2E79006D10CE /* TripcomplitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripcomplitionVC.swift; sourceTree = "<group>"; };
 		734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateprofileViewController.swift; sourceTree = "<group>"; };
-		734B9B0A2076276500090B8A /* EmailverificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailverificationViewController.swift; sourceTree = "<group>"; };
 		734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_informationViewController.swift; sourceTree = "<group>"; };
 		734F550B2077408200512886 /* HADropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADropDown.swift; sourceTree = "<group>"; };
 		734F550D2077502900512886 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-		7351C8B5207C90A2006A2BED /* PromocodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocodeViewController.swift; sourceTree = "<group>"; };
-		73586164207C9DC300996DC8 /* AddpaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddpaymentViewController.swift; sourceTree = "<group>"; };
-		73952EF220789CAF00C859B7 /* AgreementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementVC.swift; sourceTree = "<group>"; };
-		73952EF42078CAC000C859B7 /* customTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
-		73D86EE2207C876B007227F6 /* AfteraddpromocodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfteraddpromocodeViewController.swift; sourceTree = "<group>"; };
-		73F211E5207B477D006526A1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		73F211E7207B4C12006526A1 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
-		73F211E9207B710B006526A1 /* FreetripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreetripsViewController.swift; sourceTree = "<group>"; };
-		73F211EB207B9876006526A1 /* Paymentscreen1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paymentscreen1ViewController.swift; sourceTree = "<group>"; };
-		73F211EE207B9D61006526A1 /* Paymentscreen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paymentscreen2ViewController.swift; sourceTree = "<group>"; };
-=======
-		73DF6279207E383E00CB8A34 /* TermandconditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermandconditionVC.swift; sourceTree = "<group>"; };
-		73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriprequestVC.swift; sourceTree = "<group>"; };
-		73FE07E4207B8B9400D0DE8C /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
->>>>>>> Greego-Jay
-		8748A7BFADDC915F22DA3B95 /* Pods-greegotaxiappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiappUITests/Pods-greegotaxiappUITests.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> Greego-Dharika
-=======
->>>>>>> Greego-Vishal
 		B243F7AB790791DE39AE55F7 /* Pods-greegotaxiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.release.xcconfig"; sourceTree = "<group>"; };
 		EF5128238C4E6F99935868B4 /* Pods-greegotaxiapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,29 +149,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041CF17620777D9B00464B5D /* Registration */ = {
+		040A0B532078A8D800CBA6D2 /* MAP */ = {
 			isa = PBXGroup;
 			children = (
-				041CF17720777D9B00464B5D /* addMobileVC.swift */,
-				73FE07E4207B8B9400D0DE8C /* EmailVC.swift */,
-				041CF17820777D9B00464B5D /* mobilenumberViewController.swift */,
-				73DF6279207E383E00CB8A34 /* TermandconditionVC.swift */,
-				041CF17920777D9B00464B5D /* nameViewController.swift */,
-				041CF17A20777D9B00464B5D /* otpVC.swift */,
-				734B9B0A2076276500090B8A /* EmailverificationViewController.swift */,
-				73952EF220789CAF00C859B7 /* AgreementVC.swift */,
+				040A0B542078A97F00CBA6D2 /* ChooseDestinatioVC.swift */,
+				041CF18A20777EB700464B5D /* MainmapViewController.swift */,
+				3BBA890820840C2D0056BFCE /* rideMapVC.swift */,
 			);
-			path = Registration;
+			path = MAP;
 			sourceTree = "<group>";
 		};
 		045F55622077E83800E75EB6 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				73F211E5207B477D006526A1 /* SettingViewController.swift */,
 				734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */,
 				734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */,
-				73F211E7207B4C12006526A1 /* HelpViewController.swift */,
-				73F211E9207B710B006526A1 /* FreetripsViewController.swift */,
+				3BDEF7B42085F59700447600 /* FreetripsViewController.swift */,
+				3BDEF7B62085F6CB00447600 /* HelpViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -207,6 +175,7 @@
 			children = (
 				696A6199207212990015C77E /* LaunchScreen.storyboard */,
 				041CF17520777D9B00464B5D /* Main.storyboard */,
+				040A0B532078A8D800CBA6D2 /* MAP */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -214,14 +183,12 @@
 		045F55642077E8D900E75EB6 /* HelperClass */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				73952EF42078CAC000C859B7 /* customTextField.swift */,
-=======
-				7313A3922078AF9200A6AA89 /* WebServiceClass.swift */,
-				7313A38F2078AF4000A6AA89 /* Reachability.h */,
-				7313A3902078AF4000A6AA89 /* Reachability.m */,
->>>>>>> Greego-Jay
+				3B2345CC20853B1C006B1796 /* customTextField.swift */,
 				734F550B2077408200512886 /* HADropDown.swift */,
+				040A0B4E2078A30300CBA6D2 /* Reachability.h */,
+				040A0B4F2078A30300CBA6D2 /* Reachability.m */,
+				040A0B4C2078997B00CBA6D2 /* WebServiceClass.swift */,
+				040A0B4A2078977500CBA6D2 /* SharedClass.swift */,
 			);
 			path = HelperClass;
 			sourceTree = "<group>";
@@ -255,13 +222,38 @@
 			isa = PBXGroup;
 			children = (
 				734F550D2077502900512886 /* ImageViewController.swift */,
-				7313A38D20788CE300A6AA89 /* ChooseDestinatioVC.swift */,
-				73FE07E2207B5D5900D0DE8C /* TriprequestVC.swift */,
-				041CF18A20777EB700464B5D /* MainmapViewController.swift */,
 				73051D962074DAB900C42207 /* Trip_detail_ViewController.swift */,
-				734ABBA6207B2E79006D10CE /* TripcomplitionVC.swift */,
+				045F556B2078092F00E75EB6 /* style.json */,
+				045F55692078028100E75EB6 /* GoogleMap.json */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		3B2F591E208763C6000DD298 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F591F208763C6000DD298 /* AddpaymentViewController.swift */,
+				3B2F5920208763C6000DD298 /* AfteraddpromocodeViewController.swift */,
+				3B2F5921208763C6000DD298 /* Paymentscreen1ViewController.swift */,
+				3B2F5922208763C6000DD298 /* Paymentscreen2ViewController.swift */,
+				3B2F5923208763C6000DD298 /* PromocodeViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		3B34F8CC2082916400051F02 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				3B34F8CD2082916400051F02 /* addMobileVC.swift */,
+				3B34F8CE2082916400051F02 /* EmailVC.swift */,
+				3B34F8CF2082916400051F02 /* EmailverificationViewController.swift */,
+				3B34F8D02082916400051F02 /* mobilenumberViewController.swift */,
+				3B34F8D12082916400051F02 /* nameViewController.swift */,
+				3B34F8D22082916400051F02 /* otpVC.swift */,
+				3B34F8D32082916400051F02 /* TermandconditionVC.swift */,
+			);
+			name = Registration;
+			path = "../../Greego-Greego-Jay/greegotaxiapp/Registration";
 			sourceTree = "<group>";
 		};
 		428C0FF16B06C9574391D72E /* Pods */ = {
@@ -276,8 +268,6 @@
 		696A6184207212990015C77E = {
 			isa = PBXGroup;
 			children = (
-				045F556B2078092F00E75EB6 /* style.json */,
-				045F55692078028100E75EB6 /* GoogleMap.json */,
 				696A618F207212990015C77E /* greegotaxiapp */,
 				696A61A4207212990015C77E /* greegotaxiappTests */,
 				696A618E207212990015C77E /* Products */,
@@ -300,11 +290,11 @@
 		696A618F207212990015C77E /* greegotaxiapp */ = {
 			isa = PBXGroup;
 			children = (
-				73F211ED207B9889006526A1 /* Payment */,
-				045F55642077E8D900E75EB6 /* HelperClass */,
+				3B2F591E208763C6000DD298 /* Payment */,
+				3B34F8CC2082916400051F02 /* Registration */,
 				045F55632077E8A200E75EB6 /* StoryBoards */,
+				045F55642077E8D900E75EB6 /* HelperClass */,
 				045F55652077E8E700E75EB6 /* Delegates */,
-				041CF17620777D9B00464B5D /* Registration */,
 				045F55622077E83800E75EB6 /* Profile */,
 				730AF664207359B000AD8993 /* sidemenu */,
 				045F55682077E92A00E75EB6 /* Other */,
@@ -338,24 +328,11 @@
 			isa = PBXGroup;
 			children = (
 				730AF66920735B9600AD8993 /* sidemenuViewController.swift */,
-				734ABBA4207B20FF006D10CE /* FreeridesVC.swift */,
 				730AF66620735A3D00AD8993 /* SWRevealViewController.h */,
 				730AF66720735A3E00AD8993 /* SWRevealViewController.m */,
 				730AF66520735A3C00AD8993 /* greegotaxiapp-Bridging-Header.h */,
 			);
 			path = sidemenu;
-			sourceTree = "<group>";
-		};
-		73F211ED207B9889006526A1 /* Payment */ = {
-			isa = PBXGroup;
-			children = (
-				73586164207C9DC300996DC8 /* AddpaymentViewController.swift */,
-				73F211EB207B9876006526A1 /* Paymentscreen1ViewController.swift */,
-				73F211EE207B9D61006526A1 /* Paymentscreen2ViewController.swift */,
-				73D86EE2207C876B007227F6 /* AfteraddpromocodeViewController.swift */,
-				7351C8B5207C90A2006A2BED /* PromocodeViewController.swift */,
-			);
-			path = Payment;
 			sourceTree = "<group>";
 		};
 		B0F782D12501DBA75C2B3399 /* Frameworks */ = {
@@ -440,7 +417,7 @@
 					696A618C207212990015C77E = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					696A61A0207212990015C77E = {
 						CreatedOnToolsVersion = 9.2;
@@ -532,38 +509,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp-frameworks.sh",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-				"${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework",
->>>>>>> Greego-Dharika
-=======
->>>>>>> Greego-Vishal
-=======
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework",
-				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
->>>>>>> Greego-Jay
 				"${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTCheckbox.framework",
->>>>>>> Greego-Dharika
-=======
->>>>>>> Greego-Vishal
-=======
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTCheckbox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
->>>>>>> Greego-Jay
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPinView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNDropDownMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,50 +554,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				73051D972074DAB900C42207 /* Trip_detail_ViewController.swift in Sources */,
-				73586165207C9DC300996DC8 /* AddpaymentViewController.swift in Sources */,
-				041CF18020777D9C00464B5D /* addMobileVC.swift in Sources */,
-				041CF18320777D9C00464B5D /* otpVC.swift in Sources */,
 				73051D952074A1B300C42207 /* MainTableViewCell.swift in Sources */,
-				041CF18120777D9C00464B5D /* mobilenumberViewController.swift in Sources */,
 				04352C6A20800F1A00A7E6D9 /* setLocationCell.swift in Sources */,
+				3B34F8D52082916400051F02 /* EmailVC.swift in Sources */,
+				3B34F8D82082916400051F02 /* nameViewController.swift in Sources */,
+				3BBA890920840C2D0056BFCE /* rideMapVC.swift in Sources */,
 				734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */,
+				3B2F5926208763C7000DD298 /* Paymentscreen1ViewController.swift in Sources */,
+				3BDEF7B52085F59700447600 /* FreetripsViewController.swift in Sources */,
 				734F550C2077408200512886 /* HADropDown.swift in Sources */,
-				7313A3932078AF9200A6AA89 /* WebServiceClass.swift in Sources */,
-				041CF18220777D9C00464B5D /* nameViewController.swift in Sources */,
-<<<<<<< HEAD
-=======
-				73F211EA207B710B006526A1 /* FreetripsViewController.swift in Sources */,
-				73952EF52078CAC100C859B7 /* customTextField.swift in Sources */,
->>>>>>> Greego-Dharika
+				3B34F8D72082916400051F02 /* mobilenumberViewController.swift in Sources */,
+				040A0B4D2078997B00CBA6D2 /* WebServiceClass.swift in Sources */,
 				730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */,
+				040A0B502078A30300CBA6D2 /* Reachability.m in Sources */,
+				3B2F5925208763C7000DD298 /* AfteraddpromocodeViewController.swift in Sources */,
+				3BDEF7B72085F6CB00447600 /* HelpViewController.swift in Sources */,
+				040A0B4B2078977500CBA6D2 /* SharedClass.swift in Sources */,
+				3B34F8D62082916400051F02 /* EmailverificationViewController.swift in Sources */,
 				734F550E2077502900512886 /* ImageViewController.swift in Sources */,
-				73FE07E3207B5D5900D0DE8C /* TriprequestVC.swift in Sources */,
 				734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */,
 				041CF18B20777EB700464B5D /* MainmapViewController.swift in Sources */,
-<<<<<<< HEAD
-				7351C8B6207C90A2006A2BED /* PromocodeViewController.swift in Sources */,
-=======
-				734ABBA7207B2E79006D10CE /* TripcomplitionVC.swift in Sources */,
->>>>>>> Greego-Jay
-				734B9B0B2076276500090B8A /* EmailverificationViewController.swift in Sources */,
-				73F211EF207B9D61006526A1 /* Paymentscreen2ViewController.swift in Sources */,
+				3B34F8D92082916400051F02 /* otpVC.swift in Sources */,
+				3B34F8DA2082916400051F02 /* TermandconditionVC.swift in Sources */,
 				730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */,
-				73952EF320789CAF00C859B7 /* AgreementVC.swift in Sources */,
-				73D86EE3207C876B007227F6 /* AfteraddpromocodeViewController.swift in Sources */,
-				73F211E6207B477D006526A1 /* SettingViewController.swift in Sources */,
 				73051D932074A14900C42207 /* MaintableViewController.swift in Sources */,
-<<<<<<< HEAD
-				73F211EC207B9876006526A1 /* Paymentscreen1ViewController.swift in Sources */,
+				040A0B552078A97F00CBA6D2 /* ChooseDestinatioVC.swift in Sources */,
+				3B2345CD20853B1C006B1796 /* customTextField.swift in Sources */,
+				3B34F8D42082916400051F02 /* addMobileVC.swift in Sources */,
 				696A6191207212990015C77E /* AppDelegate.swift in Sources */,
-				73F211E8207B4C12006526A1 /* HelpViewController.swift in Sources */,
-=======
-				7313A38E20788CE400A6AA89 /* ChooseDestinatioVC.swift in Sources */,
-				7313A3912078AF4000A6AA89 /* Reachability.m in Sources */,
-				734ABBA5207B20FF006D10CE /* FreeridesVC.swift in Sources */,
-				696A6191207212990015C77E /* AppDelegate.swift in Sources */,
-				73DF627A207E383F00CB8A34 /* TermandconditionVC.swift in Sources */,
-				73FE07E5207B8B9500D0DE8C /* EmailVC.swift in Sources */,
->>>>>>> Greego-Jay
+				3B2F5924208763C7000DD298 /* AddpaymentViewController.swift in Sources */,
+				3B2F5927208763C7000DD298 /* Paymentscreen2ViewController.swift in Sources */,
+				3B2F5928208763C7000DD298 /* PromocodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,7 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -786,7 +730,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -800,12 +744,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5W64V38EUB;
 				INFOPLIST_FILE = greegotaxiapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.innovious.greegotaxiapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovious.greegotaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9bc31d37-d951-4ca6-8ce1-9c5390dfd2ca";
+				PROVISIONING_PROFILE_SPECIFIER = "Greego User Diawi Prov";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/greegotaxiapp/sidemenu/greegotaxiapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -819,12 +767,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5W64V38EUB;
 				INFOPLIST_FILE = greegotaxiapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.innovious.greegotaxiapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovious.greegotaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9bc31d37-d951-4ca6-8ce1-9c5390dfd2ca";
+				PROVISIONING_PROFILE_SPECIFIER = "Greego User Diawi Prov";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/greegotaxiapp/sidemenu/greegotaxiapp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

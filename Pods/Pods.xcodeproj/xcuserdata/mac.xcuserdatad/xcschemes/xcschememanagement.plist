@@ -4,17 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-		<key>DropDown.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
->>>>>>> Greego-Dharika
-=======
->>>>>>> Greego-Vishal
 		<key>Pods-greegotaxiapp.xcscheme</key>
 		<dict>
 			<key>isShown</key>

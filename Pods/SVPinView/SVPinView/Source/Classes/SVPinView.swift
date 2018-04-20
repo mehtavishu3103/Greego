@@ -78,6 +78,10 @@ public class SVPinView: UIView {
                 return false
             }
         }
+        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            textField.resignFirstResponder()
+            return true
+        }
         
         //check if entered text is backspace
         if isBackSpace() {
@@ -166,8 +170,8 @@ extension SVPinView : UICollectionViewDataSource, UICollectionViewDelegate, UICo
         textField.tintColor = textColor
         textField.font = self.font
         textField.keyboardType = self.keyboardType
+        textField.keyboardAppearance = .dark
         textField.inputAccessoryView = self.pinIinputAccessoryView
-        
         textField.delegate = self
         textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         

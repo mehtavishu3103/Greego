@@ -4,7 +4,7 @@
 //
 //  Created by jay on 4/2/18.
 //  Copyright © 2018 jay. All rights reserved.
-//
+///Users/mac/Desktop/Greego-Greego-Dharika/greegotaxiapp/Profile/FreetripsViewController.swift
 
 import UIKit
 import GoogleMaps
@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         
         GMSServices.provideAPIKey("AIzaSyCTYoZFJBLdRwY9QdneWtG4LvwVuzSw_AM")
         GMSPlacesClient.provideAPIKey("AIzaSyAyvGa8vAvoiFNgAUo8QW7zh8qJbBn8X8o")
+       
+          
         
         // Override point for customization after application launch.
         return true
@@ -51,6 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
     //MARK: Connectivity Method
     class func hasConnectivity() -> Bool {
         

@@ -49,7 +49,6 @@ class Trip_detail_ViewController: UIViewController {
         firstimg.layer.cornerRadius = firstimg.frame.size.height/2
         firstimg.clipsToBounds = true
        
-
         
         self.setShadow(view: mainview)
         self.setShadow(view: secondview)

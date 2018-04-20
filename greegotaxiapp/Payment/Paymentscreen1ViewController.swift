@@ -22,7 +22,6 @@ class Paymentscreen1ViewController: UIViewController,UITextFieldDelegate {
         
         self.view.alpha = 2.0
         
-        
     }
     
     
@@ -34,6 +33,9 @@ class Paymentscreen1ViewController: UIViewController,UITextFieldDelegate {
         backgroundImage.contentMode =  UIViewContentMode.scaleAspectFill
         self.view.insertSubview(backgroundImage, at: 0)
         
+        self.navigationController?.isNavigationBarHidden = true
+
+        
         // Do any additional setup after loading the view.
     }
 
@@ -42,7 +44,11 @@ class Paymentscreen1ViewController: UIViewController,UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func btnBackClicked(_ sender: Any)
+    {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
