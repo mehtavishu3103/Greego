@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2E05A8A4173D89BB3CFB49852EF2E6D"
+               BlueprintIdentifier = "4B55CFA71CC4E381633BDABDE0A28123"
                BuildableName = "Pods_greegotaxiapp.framework"
                BlueprintName = "Pods-greegotaxiapp"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B2E05A8A4173D89BB3CFB49852EF2E6D"
+            BlueprintIdentifier = "4B55CFA71CC4E381633BDABDE0A28123"
             BuildableName = "Pods_greegotaxiapp.framework"
             BlueprintName = "Pods-greegotaxiapp"
             ReferencedContainer = "container:Pods.xcodeproj">

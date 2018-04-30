@@ -2,66 +2,191 @@
 //  AddpaymentViewController.swift
 //  greegotaxiapp
 //
-//  Created by Harshal Shah on 4/10/18.
+//  Created by Harshal Shah on 4/14/18.
 //  Copyright © 2018 jay. All rights reserved.
 //
 
 import UIKit
+import Alamofire
+protocol cardnum {
+    func passcard(num:String)
+}
 
-class AddpaymentViewController: UIViewController {
+class AddpaymentViewController: UIViewController,UITextFieldDelegate {
 
     
-    @IBOutlet weak var txtexpirydate: UITextField!
-    let datePicker = UIDatePicker()
+    @IBOutlet weak var txtcardnumber: UITextField!
+    @IBOutlet weak var txtdate: UITextField!
+    @IBOutlet weak var txtcvv: UITextField!
+    @IBOutlet weak var txtzipcode: UITextField!
+    
+    var delegate : cardnum?
     override func viewDidLoad() {
         super.viewDidLoad()
-        showDatePicker()
-        // Do any additional setup after loading the view.
+        
+        txtdate.delegate = self
+        txtdate.tag = 3
+        txtcvv.delegate = self
+        txtcvv.tag = 4
+      
+        txtcardnumber.delegate = self
+        txtcardnumber.tag = 2
+        
+        self.navigationController?.navigationBar.isHidden = true
     }
 
+  
+    @IBAction func backbtnaction(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func showDatePicker(){
-        //Formate Date
-        datePicker.datePickerMode = .date
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        //ToolBar
-        let toolbar = UIToolbar();
-        toolbar.sizeToFit()
-        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(donedatePicker));
-        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
-        let cancelButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelDatePicker));
+        let  char = string.cString(using: String.Encoding.utf8)!
+        let isBackSpace = strcmp(char, "\\b")
         
-        toolbar.setItems([doneButton,spaceButton,cancelButton], animated: false)
         
-        txtexpirydate.inputAccessoryView = toolbar
-        txtexpirydate.inputView = datePicker
+        let str1 = textField.text as NSString?
+        let newString = str1?.replacingCharacters(in: range, with: string)
         
+        switch textField.tag {
+        case 0:
+            break
+        case 1:
+            break
+        case 2:
+            if (isBackSpace == -92) {
+                // print("Backspace was pressed")
+            }
+            else if newString?.characters.count == 5 || newString?.characters.count == 10 || newString?.characters.count == 15 {
+                textField.text = textField.text! + " "
+            }
+            else if newString?.characters.count == 20 {
+                return false
+                
+            }
+            break
+        case 3:
+            if (isBackSpace == -92) {
+                //  print("Backspace was pressed")
+            }
+            else if newString?.characters.count == 3 {
+                textField.text = textField.text! + "/"
+            }
+            else if newString?.characters.count == 6 {
+                return false
+                
+            }
+            break
+        case 4:
+            if newString?.characters.count == 4 {
+                return false
+                
+            }
+            break
+        default:
+            break
+        }
+        
+        
+        return true
     }
     
-    @objc func donedatePicker(){
+    @IBAction func btnsavepayment(_ sender: Any) {
         
-        let formatter = DateFormatter()
-        formatter.dateFormat = "dd/MM/yyyy"
-        txtexpirydate.text = formatter.string(from: datePicker.date)
-        self.view.endEditing(true)
+        if(txtcardnumber.text == ""){
+            let alert = UIAlertController(title: "Alert", message: "Please enter cardnumber", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        else if(txtdate.text == ""){
+            let alert = UIAlertController(title: "Alert", message: "Please enter expirydate", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }else if(txtcvv.text == ""){
+            let alert = UIAlertController(title: "Alert", message: "Please enter cvv", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }else if(txtzipcode.text == ""){
+            let alert = UIAlertController(title: "Alert", message: "Please enter zipcode", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }else{
+        
+        var fullName: String = self.txtdate.text!
+        let fullNameArr = fullName.components(separatedBy: "/")
+        
+        var firstName: String = fullNameArr[0]
+        var lastName: String = fullNameArr[1]
+        
+       let year = "20" + lastName
+        
+        let expdate = firstName + "/" + year
+        
+               if AppDelegate.hasConnectivity() == true
+        {
+            let token = UserDefaults.standard.value(forKey: "devicetoken") as! String
+            let headers = ["Accept": "application/json","Authorization": "Bearer "+token]
+           
+            var card = self.txtcardnumber.text! as! String
+            var str = card.replacingOccurrences(of: " ", with: "")
+            
+            
+            let parameters = [
+                "card_number":str,
+                    "exp_month_year":expdate,
+             
+                    "cvv_number":self.txtcvv.text!,
+                    "zipcode":self.txtzipcode.text!,
+                
+                ] as [String : Any]
+            Alamofire.request(WebServiceClass().BaseURL+"user/update/card", method: .post, parameters:parameters, encoding: JSONEncoding.default, headers: headers).responseJSON { (response:DataResponse<Any>) in
+                
+                switch(response.result) {
+                case .success(_):
+                   if let data = response.result.value{
+                        print(response.result.value!)
+                    var dic = response.result.value as! NSDictionary
+              
+                    if(dic.value(forKey: "error_code") as! NSNumber == 0)
+                    {
+                    
+                    //self.delegate?.passcard(num:self.txtcardnumber.text!)
+                     self.navigationController?.popViewController(animated: true)
+                    
+                    }
+                    else{
+                        let alert = UIAlertController(title: "Alert", message:dic.value(forKey: "message") as! String, preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+                        self.present(alert, animated: true, completion: nil)
+                    }
+                    }
+                case .failure(_):
+                    print(response.result.error)
+                   break
+                    
+                }
+            }
+            
+        }
+        else
+        {
+            NSLog("No Internet Connection")
+        }
+        
     }
-    
-    @objc func cancelDatePicker(){
-        self.view.endEditing(true)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }
+
+
+
+
+

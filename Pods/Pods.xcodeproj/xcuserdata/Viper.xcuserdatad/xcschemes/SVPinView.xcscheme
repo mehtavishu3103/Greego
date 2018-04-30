@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8AF0B7DE7004DA0F3A63F2B6DACB4EB8"
+               BlueprintIdentifier = "049314A05C4D7E246E1FC9EF8E9E7405"
                BlueprintName = "SVPinView"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "SVPinView.framework">

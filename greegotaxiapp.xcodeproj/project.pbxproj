@@ -18,21 +18,36 @@
 		045F556A2078028100E75EB6 /* GoogleMap.json in Resources */ = {isa = PBXBuildFile; fileRef = 045F55692078028100E75EB6 /* GoogleMap.json */; };
 		045F556C2078092F00E75EB6 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 045F556B2078092F00E75EB6 /* style.json */; };
 		3B2345CD20853B1C006B1796 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2345CC20853B1C006B1796 /* customTextField.swift */; };
-		3B2F5924208763C7000DD298 /* AddpaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F591F208763C6000DD298 /* AddpaymentViewController.swift */; };
 		3B2F5925208763C7000DD298 /* AfteraddpromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5920208763C6000DD298 /* AfteraddpromocodeViewController.swift */; };
-		3B2F5926208763C7000DD298 /* Paymentscreen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5921208763C6000DD298 /* Paymentscreen1ViewController.swift */; };
 		3B2F5927208763C7000DD298 /* Paymentscreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5922208763C6000DD298 /* Paymentscreen2ViewController.swift */; };
 		3B2F5928208763C7000DD298 /* PromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5923208763C6000DD298 /* PromocodeViewController.swift */; };
-		3B34F8D42082916400051F02 /* addMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8CD2082916400051F02 /* addMobileVC.swift */; };
-		3B34F8D52082916400051F02 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8CE2082916400051F02 /* EmailVC.swift */; };
-		3B34F8D62082916400051F02 /* EmailverificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8CF2082916400051F02 /* EmailverificationViewController.swift */; };
-		3B34F8D72082916400051F02 /* mobilenumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D02082916400051F02 /* mobilenumberViewController.swift */; };
-		3B34F8D82082916400051F02 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D12082916400051F02 /* nameViewController.swift */; };
-		3B34F8D92082916400051F02 /* otpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D22082916400051F02 /* otpVC.swift */; };
-		3B34F8DA2082916400051F02 /* TermandconditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34F8D32082916400051F02 /* TermandconditionVC.swift */; };
+		3B92464C2092B21F0011D839 /* UpdateprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92464B2092B21E0011D839 /* UpdateprofileViewController.swift */; };
+		3B9246502092B24D0011D839 /* Vehicle_informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92464F2092B24D0011D839 /* Vehicle_informationViewController.swift */; };
+		3B9246522092B3980011D839 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9246512092B3980011D839 /* VehicleTableViewCell.swift */; };
+		3B9246542092C19E0011D839 /* Paymentscreen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9246532092C19E0011D839 /* Paymentscreen1ViewController.swift */; };
+		3B9246562092C1DE0011D839 /* paymentcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9246552092C1DE0011D839 /* paymentcell.swift */; };
+		3B9246582092C7140011D839 /* AddpaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9246572092C7140011D839 /* AddpaymentViewController.swift */; };
 		3BBA890920840C2D0056BFCE /* rideMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA890820840C2D0056BFCE /* rideMapVC.swift */; };
+		3BDBCE50209093A90078D8E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BDBCE4F209093A90078D8E4 /* GoogleService-Info.plist */; };
 		3BDEF7B52085F59700447600 /* FreetripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDEF7B42085F59700447600 /* FreetripsViewController.swift */; };
 		3BDEF7B72085F6CB00447600 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDEF7B62085F6CB00447600 /* HelpViewController.swift */; };
+		3BFBCEE0208F1BCA00924F04 /* FreeridesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEDF208F1BC900924F04 /* FreeridesVC.swift */; };
+		3BFBCEE2208F3B6600924F04 /* DriverPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE1208F3B6600924F04 /* DriverPopupVC.swift */; };
+		3BFBCEEC208F449800924F04 /* addMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE4208F449800924F04 /* addMobileVC.swift */; };
+		3BFBCEED208F449800924F04 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE5208F449800924F04 /* EmailVC.swift */; };
+		3BFBCEEE208F449800924F04 /* EmailverificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE6208F449800924F04 /* EmailverificationViewController.swift */; };
+		3BFBCEEF208F449800924F04 /* mobilenumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE7208F449800924F04 /* mobilenumberViewController.swift */; };
+		3BFBCEF0208F449800924F04 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE8208F449800924F04 /* nameViewController.swift */; };
+		3BFBCEF1208F449800924F04 /* otpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEE9208F449800924F04 /* otpVC.swift */; };
+		3BFBCEF2208F449800924F04 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEEA208F449800924F04 /* SettingViewController.swift */; };
+		3BFBCEF3208F449800924F04 /* TermandconditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCEEB208F449800924F04 /* TermandconditionVC.swift */; };
+		3BFBCF11208F45AB00924F04 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCF08208F45AB00924F04 /* SVIndefiniteAnimatedView.m */; };
+		3BFBCF12208F45AB00924F04 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCF0A208F45AB00924F04 /* SVProgressAnimatedView.m */; };
+		3BFBCF13208F45AB00924F04 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BFBCF0C208F45AB00924F04 /* SVProgressHUD.bundle */; };
+		3BFBCF14208F45AB00924F04 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCF0E208F45AB00924F04 /* SVProgressHUD.m */; };
+		3BFBCF15208F45AB00924F04 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBCF10208F45AB00924F04 /* SVRadialGradientLayer.m */; };
+		3BFBCF17208F45CC00924F04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFBCF16208F45CC00924F04 /* QuartzCore.framework */; };
+		3BFBCF19208F608400924F04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BFBCF18208F608400924F04 /* GoogleService-Info.plist */; };
 		696A6191207212990015C77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696A6190207212990015C77E /* AppDelegate.swift */; };
 		696A6198207212990015C77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696A6197207212990015C77E /* Assets.xcassets */; };
 		696A619B207212990015C77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696A6199207212990015C77E /* LaunchScreen.storyboard */; };
@@ -43,8 +58,6 @@
 		73051D972074DAB900C42207 /* Trip_detail_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73051D962074DAB900C42207 /* Trip_detail_ViewController.swift */; };
 		730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AF66720735A3E00AD8993 /* SWRevealViewController.m */; };
 		730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF66920735B9600AD8993 /* sidemenuViewController.swift */; };
-		734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */; };
-		734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */; };
 		734F550C2077408200512886 /* HADropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550B2077408200512886 /* HADropDown.swift */; };
 		734F550E2077502900512886 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F550D2077502900512886 /* ImageViewController.swift */; };
 		935F253A1361BD545BFA5B55 /* Pods_greegotaxiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */; };
@@ -82,21 +95,42 @@
 		0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greegotaxiappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3A397F82F7B2A3D65BA816 /* Pods_greegotaxiappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greegotaxiappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2345CC20853B1C006B1796 /* customTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
-		3B2F591F208763C6000DD298 /* AddpaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddpaymentViewController.swift; sourceTree = "<group>"; };
 		3B2F5920208763C6000DD298 /* AfteraddpromocodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfteraddpromocodeViewController.swift; sourceTree = "<group>"; };
-		3B2F5921208763C6000DD298 /* Paymentscreen1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paymentscreen1ViewController.swift; sourceTree = "<group>"; };
 		3B2F5922208763C6000DD298 /* Paymentscreen2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paymentscreen2ViewController.swift; sourceTree = "<group>"; };
 		3B2F5923208763C6000DD298 /* PromocodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromocodeViewController.swift; sourceTree = "<group>"; };
-		3B34F8CD2082916400051F02 /* addMobileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMobileVC.swift; sourceTree = "<group>"; };
-		3B34F8CE2082916400051F02 /* EmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
-		3B34F8CF2082916400051F02 /* EmailverificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailverificationViewController.swift; sourceTree = "<group>"; };
-		3B34F8D02082916400051F02 /* mobilenumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mobilenumberViewController.swift; sourceTree = "<group>"; };
-		3B34F8D12082916400051F02 /* nameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
-		3B34F8D22082916400051F02 /* otpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpVC.swift; sourceTree = "<group>"; };
-		3B34F8D32082916400051F02 /* TermandconditionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermandconditionVC.swift; sourceTree = "<group>"; };
+		3B92464B2092B21E0011D839 /* UpdateprofileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateprofileViewController.swift; sourceTree = "<group>"; };
+		3B92464F2092B24D0011D839 /* Vehicle_informationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle_informationViewController.swift; sourceTree = "<group>"; };
+		3B9246512092B3980011D839 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		3B9246532092C19E0011D839 /* Paymentscreen1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paymentscreen1ViewController.swift; sourceTree = "<group>"; };
+		3B9246552092C1DE0011D839 /* paymentcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = paymentcell.swift; sourceTree = "<group>"; };
+		3B9246572092C7140011D839 /* AddpaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddpaymentViewController.swift; sourceTree = "<group>"; };
 		3BBA890820840C2D0056BFCE /* rideMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rideMapVC.swift; sourceTree = "<group>"; };
+		3BDBCE4F209093A90078D8E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BDBCE5120909BAB0078D8E4 /* greegotaxiapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = greegotaxiapp.entitlements; sourceTree = "<group>"; };
 		3BDEF7B42085F59700447600 /* FreetripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreetripsViewController.swift; sourceTree = "<group>"; };
 		3BDEF7B62085F6CB00447600 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		3BFBCEDF208F1BC900924F04 /* FreeridesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeridesVC.swift; sourceTree = "<group>"; };
+		3BFBCEE1208F3B6600924F04 /* DriverPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverPopupVC.swift; sourceTree = "<group>"; };
+		3BFBCEE4208F449800924F04 /* addMobileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMobileVC.swift; sourceTree = "<group>"; };
+		3BFBCEE5208F449800924F04 /* EmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		3BFBCEE6208F449800924F04 /* EmailverificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailverificationViewController.swift; sourceTree = "<group>"; };
+		3BFBCEE7208F449800924F04 /* mobilenumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mobilenumberViewController.swift; sourceTree = "<group>"; };
+		3BFBCEE8208F449800924F04 /* nameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
+		3BFBCEE9208F449800924F04 /* otpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otpVC.swift; sourceTree = "<group>"; };
+		3BFBCEEA208F449800924F04 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3BFBCEEB208F449800924F04 /* TermandconditionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermandconditionVC.swift; sourceTree = "<group>"; };
+		3BFBCF07208F45AB00924F04 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3BFBCF08208F45AB00924F04 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3BFBCF09208F45AB00924F04 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		3BFBCF0A208F45AB00924F04 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		3BFBCF0B208F45AB00924F04 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		3BFBCF0C208F45AB00924F04 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3BFBCF0D208F45AB00924F04 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3BFBCF0E208F45AB00924F04 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		3BFBCF0F208F45AB00924F04 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		3BFBCF10208F45AB00924F04 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		3BFBCF16208F45CC00924F04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3BFBCF18208F608400924F04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greegotaxiapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		696A618D207212990015C77E /* greegotaxiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greegotaxiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		696A6190207212990015C77E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,8 +149,6 @@
 		730AF66620735A3D00AD8993 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		730AF66720735A3E00AD8993 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		730AF66920735B9600AD8993 /* sidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuViewController.swift; sourceTree = "<group>"; };
-		734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateprofileViewController.swift; sourceTree = "<group>"; };
-		734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_informationViewController.swift; sourceTree = "<group>"; };
 		734F550B2077408200512886 /* HADropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADropDown.swift; sourceTree = "<group>"; };
 		734F550D2077502900512886 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		B243F7AB790791DE39AE55F7 /* Pods-greegotaxiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greegotaxiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFBCF17208F45CC00924F04 /* QuartzCore.framework in Frameworks */,
 				935F253A1361BD545BFA5B55 /* Pods_greegotaxiapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,8 +195,8 @@
 		045F55622077E83800E75EB6 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				734B9B082075FF7200090B8A /* UpdateprofileViewController.swift */,
-				734B9B0C2076307C00090B8A /* Vehicle_informationViewController.swift */,
+				3B92464F2092B24D0011D839 /* Vehicle_informationViewController.swift */,
+				3B92464B2092B21E0011D839 /* UpdateprofileViewController.swift */,
 				3BDEF7B42085F59700447600 /* FreetripsViewController.swift */,
 				3BDEF7B62085F6CB00447600 /* HelpViewController.swift */,
 			);
@@ -175,7 +208,6 @@
 			children = (
 				696A6199207212990015C77E /* LaunchScreen.storyboard */,
 				041CF17520777D9B00464B5D /* Main.storyboard */,
-				040A0B532078A8D800CBA6D2 /* MAP */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -183,6 +215,7 @@
 		045F55642077E8D900E75EB6 /* HelperClass */ = {
 			isa = PBXGroup;
 			children = (
+				3BFBCF06208F45AB00924F04 /* SVProgressHUD */,
 				3B2345CC20853B1C006B1796 /* customTextField.swift */,
 				734F550B2077408200512886 /* HADropDown.swift */,
 				040A0B4E2078A30300CBA6D2 /* Reachability.h */,
@@ -212,6 +245,8 @@
 		045F55672077E91B00E75EB6 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				3B9246552092C1DE0011D839 /* paymentcell.swift */,
+				3B9246512092B3980011D839 /* VehicleTableViewCell.swift */,
 				73051D942074A1B300C42207 /* MainTableViewCell.swift */,
 				04352C6920800F1A00A7E6D9 /* setLocationCell.swift */,
 			);
@@ -232,28 +267,47 @@
 		3B2F591E208763C6000DD298 /* Payment */ = {
 			isa = PBXGroup;
 			children = (
-				3B2F591F208763C6000DD298 /* AddpaymentViewController.swift */,
+				3B9246532092C19E0011D839 /* Paymentscreen1ViewController.swift */,
+				3B9246572092C7140011D839 /* AddpaymentViewController.swift */,
 				3B2F5920208763C6000DD298 /* AfteraddpromocodeViewController.swift */,
-				3B2F5921208763C6000DD298 /* Paymentscreen1ViewController.swift */,
 				3B2F5922208763C6000DD298 /* Paymentscreen2ViewController.swift */,
 				3B2F5923208763C6000DD298 /* PromocodeViewController.swift */,
 			);
 			path = Payment;
 			sourceTree = "<group>";
 		};
-		3B34F8CC2082916400051F02 /* Registration */ = {
+		3BFBCEE3208F449800924F04 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				3B34F8CD2082916400051F02 /* addMobileVC.swift */,
-				3B34F8CE2082916400051F02 /* EmailVC.swift */,
-				3B34F8CF2082916400051F02 /* EmailverificationViewController.swift */,
-				3B34F8D02082916400051F02 /* mobilenumberViewController.swift */,
-				3B34F8D12082916400051F02 /* nameViewController.swift */,
-				3B34F8D22082916400051F02 /* otpVC.swift */,
-				3B34F8D32082916400051F02 /* TermandconditionVC.swift */,
+				3BFBCEE4208F449800924F04 /* addMobileVC.swift */,
+				3BFBCEE5208F449800924F04 /* EmailVC.swift */,
+				3BFBCEE6208F449800924F04 /* EmailverificationViewController.swift */,
+				3BFBCEE7208F449800924F04 /* mobilenumberViewController.swift */,
+				3BFBCEE8208F449800924F04 /* nameViewController.swift */,
+				3BFBCEE9208F449800924F04 /* otpVC.swift */,
+				3BFBCEEA208F449800924F04 /* SettingViewController.swift */,
+				3BFBCEEB208F449800924F04 /* TermandconditionVC.swift */,
 			);
 			name = Registration;
-			path = "../../Greego-Greego-Jay/greegotaxiapp/Registration";
+			path = "../../../Downloads/Greego-master 3/greegotaxiapp/Registration";
+			sourceTree = "<group>";
+		};
+		3BFBCF06208F45AB00924F04 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3BFBCF07208F45AB00924F04 /* SVIndefiniteAnimatedView.h */,
+				3BFBCF08208F45AB00924F04 /* SVIndefiniteAnimatedView.m */,
+				3BFBCF09208F45AB00924F04 /* SVProgressAnimatedView.h */,
+				3BFBCF0A208F45AB00924F04 /* SVProgressAnimatedView.m */,
+				3BFBCF0B208F45AB00924F04 /* SVProgressHUD-Prefix.pch */,
+				3BFBCF0C208F45AB00924F04 /* SVProgressHUD.bundle */,
+				3BFBCF0D208F45AB00924F04 /* SVProgressHUD.h */,
+				3BFBCF0E208F45AB00924F04 /* SVProgressHUD.m */,
+				3BFBCF0F208F45AB00924F04 /* SVRadialGradientLayer.h */,
+				3BFBCF10208F45AB00924F04 /* SVRadialGradientLayer.m */,
+			);
+			name = SVProgressHUD;
+			path = "../../../../Downloads/SVProgressHUD-master/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		428C0FF16B06C9574391D72E /* Pods */ = {
@@ -290,9 +344,13 @@
 		696A618F207212990015C77E /* greegotaxiapp */ = {
 			isa = PBXGroup;
 			children = (
+				3BDBCE5120909BAB0078D8E4 /* greegotaxiapp.entitlements */,
+				3BFBCF18208F608400924F04 /* GoogleService-Info.plist */,
+				3BDBCE4F209093A90078D8E4 /* GoogleService-Info.plist */,
+				3BFBCEE3208F449800924F04 /* Registration */,
 				3B2F591E208763C6000DD298 /* Payment */,
-				3B34F8CC2082916400051F02 /* Registration */,
 				045F55632077E8A200E75EB6 /* StoryBoards */,
+				040A0B532078A8D800CBA6D2 /* MAP */,
 				045F55642077E8D900E75EB6 /* HelperClass */,
 				045F55652077E8E700E75EB6 /* Delegates */,
 				045F55622077E83800E75EB6 /* Profile */,
@@ -302,6 +360,7 @@
 				045F55662077E90000E75EB6 /* TableViewControllers */,
 				696A6197207212990015C77E /* Assets.xcassets */,
 				041CF18820777DCC00464B5D /* Info.plist */,
+				3BFBCEE1208F3B6600924F04 /* DriverPopupVC.swift */,
 			);
 			path = greegotaxiapp;
 			sourceTree = "<group>";
@@ -327,6 +386,7 @@
 		730AF664207359B000AD8993 /* sidemenu */ = {
 			isa = PBXGroup;
 			children = (
+				3BFBCEDF208F1BC900924F04 /* FreeridesVC.swift */,
 				730AF66920735B9600AD8993 /* sidemenuViewController.swift */,
 				730AF66620735A3D00AD8993 /* SWRevealViewController.h */,
 				730AF66720735A3E00AD8993 /* SWRevealViewController.m */,
@@ -338,6 +398,7 @@
 		B0F782D12501DBA75C2B3399 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BFBCF16208F45CC00924F04 /* QuartzCore.framework */,
 				59C1655E9E42CAA87ACA82F4 /* Pods_greegotaxiapp.framework */,
 				0909EA2F762FC0B6F84B13A0 /* Pods_greegotaxiappTests.framework */,
 				1E3A397F82F7B2A3D65BA816 /* Pods_greegotaxiappUITests.framework */,
@@ -417,7 +478,15 @@
 					696A618C207212990015C77E = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					696A61A0207212990015C77E = {
 						CreatedOnToolsVersion = 9.2;
@@ -456,6 +525,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFBCF13208F45AB00924F04 /* SVProgressHUD.bundle in Resources */,
+				3BFBCF19208F608400924F04 /* GoogleService-Info.plist in Resources */,
+				3BDBCE50209093A90078D8E4 /* GoogleService-Info.plist in Resources */,
 				045F556A2078028100E75EB6 /* GoogleMap.json in Resources */,
 				041CF18920777DCC00464B5D /* Info.plist in Resources */,
 				041CF17F20777D9C00464B5D /* Main.storyboard in Resources */,
@@ -511,17 +583,25 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-greegotaxiapp/Pods-greegotaxiapp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CTCheckbox/CTCheckbox.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTCheckbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPinView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNDropDownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -556,35 +636,44 @@
 				73051D972074DAB900C42207 /* Trip_detail_ViewController.swift in Sources */,
 				73051D952074A1B300C42207 /* MainTableViewCell.swift in Sources */,
 				04352C6A20800F1A00A7E6D9 /* setLocationCell.swift in Sources */,
-				3B34F8D52082916400051F02 /* EmailVC.swift in Sources */,
-				3B34F8D82082916400051F02 /* nameViewController.swift in Sources */,
 				3BBA890920840C2D0056BFCE /* rideMapVC.swift in Sources */,
-				734B9B092075FF7200090B8A /* UpdateprofileViewController.swift in Sources */,
-				3B2F5926208763C7000DD298 /* Paymentscreen1ViewController.swift in Sources */,
+				3BFBCEF2208F449800924F04 /* SettingViewController.swift in Sources */,
+				3BFBCEED208F449800924F04 /* EmailVC.swift in Sources */,
+				3BFBCF14208F45AB00924F04 /* SVProgressHUD.m in Sources */,
+				3B9246542092C19E0011D839 /* Paymentscreen1ViewController.swift in Sources */,
 				3BDEF7B52085F59700447600 /* FreetripsViewController.swift in Sources */,
+				3B92464C2092B21F0011D839 /* UpdateprofileViewController.swift in Sources */,
+				3B9246582092C7140011D839 /* AddpaymentViewController.swift in Sources */,
 				734F550C2077408200512886 /* HADropDown.swift in Sources */,
-				3B34F8D72082916400051F02 /* mobilenumberViewController.swift in Sources */,
 				040A0B4D2078997B00CBA6D2 /* WebServiceClass.swift in Sources */,
+				3BFBCF11208F45AB00924F04 /* SVIndefiniteAnimatedView.m in Sources */,
 				730AF66A20735B9600AD8993 /* sidemenuViewController.swift in Sources */,
 				040A0B502078A30300CBA6D2 /* Reachability.m in Sources */,
 				3B2F5925208763C7000DD298 /* AfteraddpromocodeViewController.swift in Sources */,
+				3B9246522092B3980011D839 /* VehicleTableViewCell.swift in Sources */,
+				3B9246562092C1DE0011D839 /* paymentcell.swift in Sources */,
 				3BDEF7B72085F6CB00447600 /* HelpViewController.swift in Sources */,
 				040A0B4B2078977500CBA6D2 /* SharedClass.swift in Sources */,
-				3B34F8D62082916400051F02 /* EmailverificationViewController.swift in Sources */,
 				734F550E2077502900512886 /* ImageViewController.swift in Sources */,
-				734B9B0D2076307C00090B8A /* Vehicle_informationViewController.swift in Sources */,
+				3B9246502092B24D0011D839 /* Vehicle_informationViewController.swift in Sources */,
+				3BFBCEE2208F3B6600924F04 /* DriverPopupVC.swift in Sources */,
+				3BFBCEE0208F1BCA00924F04 /* FreeridesVC.swift in Sources */,
+				3BFBCF15208F45AB00924F04 /* SVRadialGradientLayer.m in Sources */,
+				3BFBCEF0208F449800924F04 /* nameViewController.swift in Sources */,
 				041CF18B20777EB700464B5D /* MainmapViewController.swift in Sources */,
-				3B34F8D92082916400051F02 /* otpVC.swift in Sources */,
-				3B34F8DA2082916400051F02 /* TermandconditionVC.swift in Sources */,
 				730AF66820735A3E00AD8993 /* SWRevealViewController.m in Sources */,
 				73051D932074A14900C42207 /* MaintableViewController.swift in Sources */,
 				040A0B552078A97F00CBA6D2 /* ChooseDestinatioVC.swift in Sources */,
+				3BFBCEEC208F449800924F04 /* addMobileVC.swift in Sources */,
+				3BFBCEEE208F449800924F04 /* EmailverificationViewController.swift in Sources */,
 				3B2345CD20853B1C006B1796 /* customTextField.swift in Sources */,
-				3B34F8D42082916400051F02 /* addMobileVC.swift in Sources */,
+				3BFBCEF1208F449800924F04 /* otpVC.swift in Sources */,
 				696A6191207212990015C77E /* AppDelegate.swift in Sources */,
-				3B2F5924208763C7000DD298 /* AddpaymentViewController.swift in Sources */,
+				3BFBCEF3208F449800924F04 /* TermandconditionVC.swift in Sources */,
 				3B2F5927208763C7000DD298 /* Paymentscreen2ViewController.swift in Sources */,
 				3B2F5928208763C7000DD298 /* PromocodeViewController.swift in Sources */,
+				3BFBCF12208F45AB00924F04 /* SVProgressAnimatedView.m in Sources */,
+				3BFBCEEF208F449800924F04 /* mobilenumberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,16 +833,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = greegotaxiapp/greegotaxiapp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W64V38EUB;
 				INFOPLIST_FILE = greegotaxiapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.innovious.greegotaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9bc31d37-d951-4ca6-8ce1-9c5390dfd2ca";
-				PROVISIONING_PROFILE_SPECIFIER = "Greego User Diawi Prov";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/greegotaxiapp/sidemenu/greegotaxiapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -767,16 +857,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = greegotaxiapp/greegotaxiapp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W64V38EUB;
 				INFOPLIST_FILE = greegotaxiapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.innovious.greegotaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9bc31d37-d951-4ca6-8ce1-9c5390dfd2ca";
-				PROVISIONING_PROFILE_SPECIFIER = "Greego User Diawi Prov";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/greegotaxiapp/sidemenu/greegotaxiapp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

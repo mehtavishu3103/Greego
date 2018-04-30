@@ -9,8 +9,13 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+
+import UserNotifications
+import Firebase
+
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, MessagingDelegate
 {
     var window: UIWindow?
 
@@ -20,12 +25,69 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         GMSServices.provideAPIKey("AIzaSyCTYoZFJBLdRwY9QdneWtG4LvwVuzSw_AM")
         GMSPlacesClient.provideAPIKey("AIzaSyAyvGa8vAvoiFNgAUo8QW7zh8qJbBn8X8o")
        
-          
+       
+        if #available(iOS 10.0, *) {
+            // For iOS 10 display notification (sent via APNS)
+            UNUserNotificationCenter.current().delegate = self
+            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+            UNUserNotificationCenter.current().requestAuthorization(
+                options: authOptions,
+                completionHandler: {_, _ in })
+            // For iOS 10 data message (sent via FCM
+            Messaging.messaging().delegate = self
+        } else {
+            let settings: UIUserNotificationSettings =
+                UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+            application.registerUserNotificationSettings(settings)
+        }
+        
+        application.registerForRemoteNotifications()
+        
+        FirebaseApp.configure()
+        
+        if UserDefaults.standard.bool(forKey: "isLoggedIn")
+        {
+            let testController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SWRevealViewController") as! SWRevealViewController
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            appDelegate.window?.rootViewController = testController
+        }
         
         // Override point for customization after application launch.
         return true
     }
-
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("APNs token retrieved: \(deviceToken)")
+        Messaging.messaging().apnsToken = deviceToken
+        
+        print("Token is here   \(String(describing: Messaging.messaging().fcmToken))")
+        print("Token is here   \(String(describing: Messaging.messaging().apnsToken))")
+        
+        UserDefaults.standard.set(Messaging.messaging().fcmToken, forKey: "FCMToken")
+        UserDefaults.standard.synchronize()
+    }
+    func tokenRefreshNotification(notification: NSNotification) {
+        // NOTE: It can be nil here
+        let refreshedToken = InstanceID.instanceID().token()
+        print("InstanceID token: \(String(describing: refreshedToken))")
+        
+        connectToFcm()
+    }
+    
+    func connectToFcm() {
+        Messaging.messaging().connect { (error) in
+            if (error != nil) {
+                print("Unable to connect with FCM. \(String(describing: error))")
+            } else {
+                print("Connected to FCM.")
+            }
+        }
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        print(userInfo)
+    }
+    
+  
     func applicationWillResignActive(_ application: UIApplication)
     {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -56,12 +118,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     
     //MARK: Connectivity Method
     class func hasConnectivity() -> Bool {
-        
+    
         let reachability: Reachability = Reachability.forInternetConnection()
         let networkStatus: Int = reachability.currentReachabilityStatus().rawValue
         return networkStatus != 0
-        
     }
-
 }
-
